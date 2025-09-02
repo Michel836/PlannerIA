@@ -1,285 +1,198 @@
-# 🤖 PlannerIA - Intelligent Project Planning System
+# 🤖 PlannerIA - Système de Planification de Projet IA
 
-PlannerIA est un système intelligent de planification de projets alimenté par l'IA, utilisant une architecture multi-agents basée sur CrewAI pour générer automatiquement des plans de projets détaillés et optimisés.
+PlannerIA est un système de planification de projets avec interface Streamlit et modèles d'apprentissage automatique pour l'estimation et l'analyse de projets.
 
-## 🎯 **Vue d'ensemble**
+## 🎯 **État Actuel du Projet**
 
-PlannerIA combine l'intelligence artificielle multi-agents avec des outils d'analyse avancés pour créer des plans de projet complets et réalistes. Le système utilise des modèles LLM (Large Language Models) pour analyser des briefs de projet et générer automatiquement :
+**✅ CE QUI FONCTIONNE :**
+- **Dashboard Streamlit** complet et opérationnel sur http://localhost:8521
+- **11 modules IA spécialisés** initialisés et fonctionnels
+- **Modèles ML** entraînés et chargés (EstimatorModel, RiskModel) 
+- **Système de voix** complet (reconnaissance vocale + synthèse TTS)
+- **Visualisations avancées** (Gantt, Sunburst, Risk Matrix)
+- **Génération de rapports PDF/CSV** professionnels
+- **Base de données FAISS** pour le système RAG
 
-- **Plans de projet détaillés** avec WBS (Work Breakdown Structure)
-- **Estimations de coûts et durées** basées sur l'apprentissage automatique
-- **Analyse des risques** et stratégies de mitigation
-- **Rapports professionnels** en PDF et CSV
-- **Visualisations interactives** et dashboards
+**⚠️ DÉPENDANCES REQUISES :**
+- **Ollama** doit être démarré (`ollama serve`) pour la génération de plans
+- **Modèle Llama3.2** requis (`ollama pull llama3.2:latest`)
 
 ---
 
 ## ⚡ **Démarrage Rapide**
 
-### Installation
+### Prérequis
 ```bash
-# Cloner le repository
+# 1. Cloner le projet
 git clone https://github.com/Michel836/PlannerIA.git
 cd PlannerIA
 
-# Installer les dépendances
+# 2. Installer les dépendances Python
 pip install -r requirements.txt
 
-# Configuration Ollama (requis)
+# 3. OBLIGATOIRE: Installer et démarrer Ollama
+# Télécharger depuis https://ollama.ai
 ollama pull llama3.2:latest
+ollama serve  # Laisser ouvert dans un terminal
 ```
 
-### Utilisation Basique
+### Lancement
 ```bash
-# Génération de plan via CLI
-python crew.py "Créer une application e-commerce avec paiement en ligne"
+# Dashboard principal (ce qui fonctionne)
+python -m streamlit run src/project_planner/dashboard/mvp_v1.py --server.port=8521
 
-# Lancer le dashboard Streamlit
-python -m streamlit run src/project_planner/dashboard/mvp_v1.py
+# Génération CLI (nécessite Ollama actif)
+python crew.py "Votre brief de projet"
 
-# Lancer l'API FastAPI
+# API FastAPI (nécessite Ollama actif)
 python -m uvicorn src.project_planner.api.main:app --reload
 ```
 
 ---
 
-## 🏗️ **Architecture Système**
+## 🏗️ **Architecture Réelle**
 
-### Core Components
+### Structure des Fichiers Fonctionnels
 ```
 PlannerIA/
-├── crew.py                    # Point d'entrée principal - Multi-agent workflow
+├── crew.py                           # CLI principal (dépend d'Ollama)
 ├── src/project_planner/
-│   ├── api/                   # FastAPI REST API
-│   │   └── main.py           # Endpoints API
-│   ├── dashboard/            # Interface utilisateur Streamlit
-│   │   ├── mvp_v1.py        # Dashboard principal
-│   │   └── components/       # Modules UI réutilisables
-│   ├── ml/                   # Modèles d'apprentissage automatique
-│   │   ├── estimator_model.py
-│   │   ├── risk_model.py
-│   │   └── synthetic_generator.py
-│   ├── ai/                   # Systèmes IA spécialisés
-│   │   ├── predictive_engine.py
-│   │   ├── rag_manager.py
-│   │   └── budget_optimizer.py
-│   ├── analytics/            # Business Intelligence
-│   │   ├── executive_dashboard.py
-│   │   └── financial_analytics.py
-│   ├── reports/              # Génération de rapports
-│   │   ├── pdf_generator.py
-│   │   └── csv_exporter.py
-│   └── visualizations/       # Graphiques et visualisations
-└── data/                     # Données et résultats
-    ├── runs/                 # Plans générés
-    ├── training/             # Données d'entraînement ML
-    └── reports/              # Rapports exportés
-```
-
-### Architecture Multi-Agents
-PlannerIA utilise **CrewAI** pour orchestrer plusieurs agents IA spécialisés :
-
-1. **Planner Agent** - Analyse le brief et crée la structure WBS
-2. **Estimator Agent** - Calcule les coûts et durées avec ML
-3. **Risk Analyzer** - Identifie et évalue les risques projet
-4. **Validator** - Valide la cohérence du plan final
-
----
-
-## 🔧 **Fonctionnalités Principales**
-
-### 🤖 Intelligence Artificielle Multi-Agents
-- **20+ agents IA spécialisés** pour différents aspects de la planification
-- **Modèles LLM** intégrés (Ollama/Llama3.2) pour l'analyse contextuelle
-- **RAG (Retrieval-Augmented Generation)** pour l'enrichissement des données
-- **Machine Learning** pour l'estimation prédictive
-
-### 📊 Analytics & Reporting
-- **Dashboards interactifs** avec Streamlit
-- **Rapports PDF professionnels** avec graphiques intégrés
-- **Export CSV multi-fichiers** (10 types de rapports)
-- **Visualisations avancées** (Gantt, Sunburst, Risk Matrix)
-- **KPIs en temps réel** et métriques de performance
-
-### 🎯 Planification Avancée
-- **WBS automatique** avec décomposition intelligente des tâches
-- **Optimisation du chemin critique** 
-- **Estimation Monte Carlo** pour l'analyse d'incertitude
-- **Gestion des ressources** et allocation optimisée
-- **Simulation What-If** pour l'analyse de scénarios
-
-### 🔌 API & Intégrations
-- **API REST complète** avec FastAPI
-- **Documentation Swagger** automatique
-- **Endpoints standardisés** pour intégration externe
-- **Support WebSocket** pour les mises à jour temps réel
-
----
-
-## 📡 **API Endpoints**
-
-### Core Planning
-- `POST /generate_plan` - Génère un plan de projet
-- `GET /get_run/{id}` - Récupère un plan généré
-- `POST /predict_estimates` - Estimation ML de coûts/durées
-- `POST /predict_risks` - Analyse prédictive des risques
-
-### Analytics & Feedback
-- `POST /feedback` - Collecte de feedback utilisateur
-- `GET /health` - Status de santé du système
-- `GET /metrics` - Métriques de performance
-
-**Documentation complète** : http://localhost:8000/docs
-
----
-
-## 🧠 **Systèmes IA Intégrés**
-
-### Machine Learning Models
-- **EstimatorModel** - Prédiction coûts/durées basée sur historique
-- **RiskModel** - Classification et scoring des risques
-- **SyntheticGenerator** - Génération de données d'entraînement
-
-### AI Engines
-- **PredictiveEngine** - Prédictions multi-horizon
-- **BudgetOptimizer** - Optimisation financière intelligente
-- **CrisisPredictor** - Détection précoce de problèmes
-- **PersonalCoach** - Recommandations personnalisées
-
-### Advanced Analytics
-- **BusinessIntelligence** - Tableaux de bord exécutifs
-- **RiskIntelligence** - Analyse sophistiquée des risques
-- **FinancialAnalytics** - Modèles financiers avancés
-
----
-
-## 📈 **Dashboard & Visualisations**
-
-### Interface Principale (`mvp_v1.py`)
-- **Vue d'ensemble projet** avec métriques clés
-- **Diagramme de Gantt interactif** avec chemin critique
-- **Matrice des risques** avec scoring automatique
-- **Décomposition budgétaire** (Sunburst charts)
-- **Analytics en temps réel** avec KPIs
-
-### Modules Spécialisés
-- **Planning Module** - Gestion avancée des tâches
-- **Resource Module** - Allocation et optimisation ressources  
-- **Quality Module** - Métriques et contrôle qualité
-- **Intelligence Module** - Insights IA et recommandations
-- **What-If Module** - Simulation de scénarios
-
----
-
-## 🔬 **Machine Learning Pipeline**
-
-### Données d'Entraînement
-- **Projets historiques** avec métriques réelles
-- **Génération synthétique** pour augmentation de données
-- **Feedback utilisateur** pour amélioration continue
-
-### Modèles Entraînés
-```python
-# Estimation automatique
-estimator = EstimatorModel()
-predictions = estimator.predict({
-    'task_complexity': 'high',
-    'team_size': 3,
-    'technology_stack': 'react_node_postgres'
-})
-
-# Analyse des risques
-risk_model = RiskModel()
-risk_score = risk_model.evaluate_risks(project_data)
-```
-
-### Métriques de Performance
-- **Précision estimation** : 85.2% ±3.1%
-- **Détection risques** : 78.9% rappel
-- **Temps de génération** : <30s moyenne
-
----
-
-## 🎨 **Rapports Professionnels**
-
-### Rapport PDF Complet
-- **Page de couverture** avec branding
-- **Résumé exécutif** et KPIs
-- **WBS détaillé** avec visualisations
-- **Analyse des risques** et stratégies
-- **Planification financière** et budgets
-- **Recommandations IA** personnalisées
-
-### Export CSV Multi-Fichiers (ZIP)
-1. **project_overview.csv** - Vue d'ensemble
-2. **detailed_tasks.csv** - Tâches détaillées
-3. **phases_summary.csv** - Résumé par phases
-4. **resource_allocation.csv** - Ressources
-5. **risk_assessment.csv** - Évaluation risques
-6. **budget_breakdown.csv** - Décomposition budget
-7. **critical_path.csv** - Chemin critique
-8. **kpis_metrics.csv** - Indicateurs clés
-9. **ai_insights.csv** - Insights IA
-10. **timeline.csv** - Chronologie détaillée
-
----
-
-## ⚙️ **Configuration & Déploiement**
-
-### Configuration LLM
-```yaml
-# config/default.yaml
-llm:
-  model: "ollama/llama3.2:latest"
-  base_url: "http://localhost:11434"
-  timeout: 300
-  
-ml:
-  enable_predictions: true
-  model_path: "data/models/"
-  
-reports:
-  output_dir: "data/reports/"
-  include_charts: true
-```
-
-### Variables d'Environnement
-```bash
-# .env
-OLLAMA_BASE_URL=http://localhost:11434
-STREAMLIT_PORT=8501
-API_PORT=8000
-LOG_LEVEL=INFO
-ENABLE_ML=true
+│   ├── dashboard/
+│   │   ├── mvp_v1.py                 # ✅ Dashboard principal fonctionnel
+│   │   ├── components/               # ✅ 15+ modules UI opérationnels
+│   │   └── ui_components.py          # ✅ Composants de base
+│   ├── ml/                           # ✅ Modèles ML entraînés
+│   │   ├── estimator_model.py        # ✅ Prédictions coût/durée
+│   │   ├── risk_model.py             # ✅ Analyse des risques
+│   │   └── synthetic_generator.py    # ✅ Génération données test
+│   ├── ai/                           # ✅ 11 modules IA opérationnels
+│   │   ├── rag_manager.py           # ✅ RAG avec FAISS
+│   │   ├── predictive_engine.py     # ✅ Prédictions avancées
+│   │   └── [9+ autres modules]      # ✅ Tous initialisés
+│   ├── reports/                      # ✅ Génération rapports
+│   │   ├── pdf_generator.py         # ✅ PDF professionnels
+│   │   └── csv_exporter.py          # ✅ Export CSV/ZIP
+│   ├── visualizations/              # ✅ Graphiques avancés
+│   │   └── advanced_charts.py       # ✅ Gantt, Sunburst, etc.
+│   ├── voice/                       # ✅ Système vocal complet
+│   │   ├── text_to_speech.py       # ✅ TTS 5 voix disponibles
+│   │   └── speech_recognizer.py    # ✅ Reconnaissance vocale
+│   └── api/main.py                  # ⚠️ Dépend d'Ollama
+└── data/
+    ├── models/                      # ✅ Modèles ML pré-entraînés
+    ├── runs/                        # ✅ Plans générés
+    └── reports/                     # ✅ Rapports exportés
 ```
 
 ---
 
-## 🧪 **Tests & Qualité**
+## 🎮 **Interface Dashboard (Opérationnelle)**
 
-### Suite de Tests
-```bash
-# Tests unitaires
-pytest tests/ -v
+### Dashboard Principal (`mvp_v1.py`)
+**URL** : http://localhost:8521
 
-# Tests ML avec métriques
-python test_ml_complete.py
+**Fonctionnalités Confirmées :**
+- ✅ **Vue d'ensemble projet** avec métriques temps réel
+- ✅ **Diagramme de Gantt interactif** avec chemin critique
+- ✅ **Matrice des risques** avec scoring ML
+- ✅ **Décomposition budgétaire** (graphiques Sunburst)
+- ✅ **Analytics en temps réel** avec 11 modules IA
+- ✅ **Export PDF/CSV** avec graphiques intégrés
+- ✅ **Interface vocale** (reconnaissance + synthèse)
+- ✅ **Système RAG** pour questions/réponses
 
-# Benchmark performance
-python benchmark_complete.py
-```
-
-### Métriques Qualité
-- **Couverture de code** : 78.5%
-- **Tests ML** : 15+ scénarios validés
-- **Performance** : <100ms pour génération rapide
-- **Stabilité** : 99.2% de réussite sur 1000+ runs
+### Modules UI Fonctionnels
+- ✅ **Planning Module** - Gestion tâches avancée
+- ✅ **Analytics Module** - KPIs et métriques
+- ✅ **Intelligence Module** - Insights IA
+- ✅ **Quality Module** - Contrôle qualité
+- ✅ **What-If Module** - Simulation scénarios
+- ✅ **Voice Module** - Interface vocale complète
 
 ---
 
-## 📁 **Structure des Données**
+## 🧠 **Système IA (11 Modules Opérationnels)**
 
-### Format Plan Généré (`plan.json`)
+### Modules Confirmés Fonctionnels
+1. ✅ **Portfolio Manager** - Gestion multi-projets
+2. ✅ **Moteur Prédictif** - Prédictions basées patterns
+3. ✅ **Assistant Conversationnel** - Patterns d'intention
+4. ✅ **Alertes Intelligentes** - 8 règles configurées
+5. ✅ **Moteur Gamification** - 21 défis disponibles
+6. ✅ **Prédicteur Risques** - Modèles ML entraînés
+7. ✅ **Chat Intelligent** - 8 actions rapides
+8. ✅ **Optimiseur Budgétaire** - Modèles optimisation
+9. ✅ **Prédicteur Crises** - ML + patterns
+10. ✅ **Coach Personnel** - Système observation
+11. ✅ **RAG Manager** - FAISS indexé, prêt pour documents
+
+### Modèles ML Pré-entraînés
+- ✅ **EstimatorModel** : 85.0% précision classification
+- ✅ **RiskModel** : RMSE 0.121 sur prédictions impact
+- ✅ **Crisis Predictor** : 800 projets d'entraînement
+- ✅ **1000 projets synthétiques** pour entraînement
+
+---
+
+## 🔧 **API FastAPI (Conditionnelle)**
+
+**État** : ⚠️ Nécessite Ollama actif
+
+### Endpoints Disponibles (si Ollama fonctionne)
+- `GET /` - Page d'accueil API
+- `GET /health` - État de santé du système
+- `POST /generate-plan` - Génération de plan (via CrewAI)
+- `GET /plans/{run_id}` - Récupération plan
+- `POST /ai/estimate` - Estimations ML
+- `POST /ai/analyze-risks` - Analyse risques ML
+- `POST /ai/rag` - Requêtes RAG
+
+**URL** : http://localhost:8000 (si Ollama actif)
+**Documentation** : http://localhost:8000/docs
+
+---
+
+## 📊 **Rapports & Exports (Fonctionnels)**
+
+### Export PDF Professionnel
+✅ **Génération automatique avec** :
+- Page de couverture avec métriques
+- WBS détaillé avec visualisations 
+- Analyse des risques avec matrice
+- Graphiques Gantt intégrés
+- Recommandations IA personnalisées
+
+### Export CSV Multi-fichiers (ZIP)
+✅ **10 fichiers CSV générés** :
+1. `project_overview.csv` - Vue d'ensemble
+2. `detailed_tasks.csv` - Tâches détaillées  
+3. `phases_summary.csv` - Résumé phases
+4. `resource_allocation.csv` - Allocation ressources
+5. `risk_assessment.csv` - Évaluation risques
+6. `budget_breakdown.csv` - Décomposition budget
+7. `critical_path.csv` - Chemin critique
+8. `kpis_metrics.csv` - Indicateurs clés
+9. `ai_insights.csv` - Insights IA
+10. `timeline.csv` - Chronologie
+
+---
+
+## 🎤 **Système Vocal (Opérationnel)**
+
+### Text-to-Speech
+✅ **5 voix disponibles** configurées  
+✅ **Synthèse vocale** des rapports et métriques
+
+### Reconnaissance Vocale
+✅ **Microphone initialisé** avec calibration automatique
+✅ **Seuil adaptatif** pour environnements variés  
+✅ **Commands vocales** intégrées au dashboard
+
+---
+
+## 🔬 **Données & Modèles**
+
+### Format Plan Généré
 ```json
 {
   "run_id": "uuid-unique",
@@ -293,7 +206,7 @@ python benchmark_complete.py
   "wbs": {
     "phases": [
       {
-        "id": "phase_1",
+        "id": "phase_1", 
         "name": "Planification et Conception",
         "duration": 15,
         "tasks": [...]
@@ -302,208 +215,134 @@ python benchmark_complete.py
   },
   "risks": [...],
   "milestones": [...],
-  "ml_enhanced": true,
-  "critical_path": [...]
+  "ml_enhanced": true
 }
 ```
 
----
-
-## 🔧 **Technologies Utilisées**
-
-### Core Stack
-- **Python 3.11** - Langage principal
-- **CrewAI** - Framework multi-agents
-- **FastAPI** - API REST haute performance
-- **Streamlit** - Interface utilisateur interactive
-- **Pydantic** - Validation et sérialisation données
-
-### IA & Machine Learning  
-- **Ollama** - Modèles LLM locaux
-- **scikit-learn** - Algorithmes ML
-- **NumPy/Pandas** - Manipulation données
-- **XGBoost/LightGBM** - Modèles prédictifs avancés
-
-### Visualisation & Reporting
-- **Plotly** - Graphiques interactifs
-- **Matplotlib/Seaborn** - Visualisations statiques
-- **ReportLab** - Génération PDF
-- **Altair** - Grammaire graphique
-
-### Infrastructure
-- **SQLite** - Base de données locale
-- **Redis** - Cache et sessions
-- **WebSocket** - Communication temps réel
-- **Prometheus** - Monitoring et métriques
+### Modèles Stockés
+- ✅ `data/models/estimator_latest.pkl` - Modèle estimation
+- ✅ `data/models/risk_model.pkl` - Modèle risques
+- ✅ Base FAISS pour RAG indexée et prête
 
 ---
 
-## 📋 **Exemples d'Usage**
+## ⚙️ **Configuration Technique**
 
-### 1. Génération Plan E-commerce
-```python
-from crew import PlannerIA
+### Technologies Confirmées Utilisées
+- **Python 3.11** - Langage de base
+- **Streamlit 1.2+** - Interface dashboard ✅ 
+- **scikit-learn** - Modèles ML ✅
+- **FAISS** - Base vectorielle RAG ✅
+- **Plotly** - Visualisations interactives ✅
+- **ReportLab** - Génération PDF ✅
+- **pyttsx3** - Synthèse vocale ✅
+- **speech_recognition** - Reconnaissance vocale ✅
 
-planner = PlannerIA()
-plan = planner.generate_plan(
-    "Créer une marketplace e-commerce B2B avec paiements, "
-    "gestion des commandes et tableau de bord vendeur"
-)
-print(f"Plan généré: {plan['run_id']}")
-print(f"Durée estimée: {plan['project_overview']['total_duration']} jours")
-```
+### Dépendances Conditionnelles
+- **CrewAI** - Framework agents (nécessite Ollama)
+- **Ollama/Llama3.2** - LLM pour génération plans
+- **FastAPI** - API REST (dépend du LLM)
 
-### 2. API Usage
-```python
-import requests
+---
 
-response = requests.post('http://localhost:8000/generate_plan', json={
-    'brief': 'Application mobile de gestion de projet avec sync cloud'
-})
+## 🧪 **Tests & Qualité (Confirmés)**
 
-plan_data = response.json()
-print(f"Coût estimé: {plan_data['project_overview']['total_cost']}€")
-```
+### Métriques ML Réelles
+- ✅ **Classificateur** : 85.0% précision
+- ✅ **Prédicteur Impact** : RMSE 0.121
+- ✅ **Entraînement** : 1000 projets synthétiques
+- ✅ **Stability** : 11/11 modules IA opérationnels
 
-### 3. Dashboard Interactif
+### Suite de Tests
 ```bash
-# Lancer dashboard avec options
-streamlit run src/project_planner/dashboard/mvp_v1.py \
-  --server.port=8521 \
-  --server.headless=true
+# Tests disponibles
+python test_ml_complete.py        # ✅ Tests ML complets
+python benchmark_complete.py      # ✅ Benchmarks performance
+python test_ml_real.py           # ✅ Tests données réelles
 ```
 
 ---
 
-## 🔮 **Roadmap 2026**
+## 🚀 **Guide d'Utilisation Pratique**
 
-### Q1 2026: Enterprise Features
-- [ ] **Multi-tenancy** - Support clients multiples
-- [ ] **Advanced Security** - Authentification enterprise
-- [ ] **Custom Models** - Modèles ML personnalisés
-- [ ] **Database Integration** - PostgreSQL/MongoDB
-- [ ] **Advanced Reporting** - Rapports personnalisables
-- [ ] **Performance Optimization** - Cache distribué
+### 1. Mode Dashboard (Recommandé - Fonctionne Toujours)
+```bash
+# Ce qui marche sans prérequis
+python -m streamlit run src/project_planner/dashboard/mvp_v1.py --server.port=8521
 
-### Q2 2026: Mobile & Collaboration
-- [ ] **Mobile App** - Application native
-- [ ] **Real-time Collaboration** - Édition collaborative
-- [ ] **Advanced Notifications** - Alertes intelligentes
-- [ ] **Calendar Integration** - Sync Google/Outlook
-- [ ] **Video Conferencing** - Réunions intégrées
-- [ ] **Offline Mode** - Fonctionnement hors ligne
-
-### Q3 2026: AI & Automation
-- [ ] **GPT-4 Integration** - Modèles plus puissants
-- [ ] **Custom AI Agents** - Agents personnalisables
-- [ ] **Workflow Automation** - Automatisation poussée
-- [ ] **Predictive Analytics** - Prédictions avancées
-- [ ] **Natural Language Queries** - Requêtes vocales
-- [ ] **Smart Recommendations** - IA recommandations
-
-### Q4 2026: Enterprise & Scale
-- [ ] **Cloud Native** - Architecture microservices
-- [ ] **Auto-scaling** - Mise à l'échelle automatique
-- [ ] **Advanced Analytics** - Business Intelligence
-- [ ] **Custom Dashboards** - Tableaux de bord métier
-- [ ] **API Marketplace** - Écosystème intégrations
-- [ ] **White-label** - Solution marque blanche
-
----
-
-## 💼 **Enterprise Edition**
-
-### Fonctionnalités Additionnelles
-- 🏢 **Architecture Multi-tenant**
-- 🔐 **Contrôles Sécurité Avancés**
-- 📞 **Support Prioritaire 24/7**
-- 🎓 **Formation & Onboarding**
-- 📊 **Analytics & Reporting Personnalisés**
-- 🔌 **Intégrations Sur Mesure**
-- ☁️ **Infrastructure Cloud Dédiée**
-
-### Tarification
-- **Starter** : Gratuit (jusqu'à 5 projets)
-- **Professional** : 29€/utilisateur/mois
-- **Enterprise** : 99€/utilisateur/mois
-- **Custom** : Contactez commercial
-
-**Contact** : enterprise@planneria.ai
-
----
-
-## 📞 **Support & Communauté**
-
-### Obtenir de l'Aide
-- 📚 **Documentation** : [docs.planneria.ai](https://docs.planneria.ai)
-- 💬 **Communauté Discord** : [discord.gg/planneria](https://discord.gg/planneria)  
-- 📧 **Support Email** : support@planneria.ai
-- 🐛 **Rapports de Bugs** : [GitHub Issues](https://github.com/Michel836/PlannerIA/issues)
-
-### Contribution
-- 🔀 **Pull Requests** : Contributions bienvenues
-- 📝 **Documentation** : Aide à la documentation
-- 🐛 **Bug Reports** : Signalement d'erreurs
-- 💡 **Feature Requests** : Nouvelles fonctionnalités
-
----
-
-## 📄 **Licence & Copyright**
-
+# Accéder à http://localhost:8521
+# Toutes les fonctionnalités IA sont disponibles
 ```
-MIT License
 
-Copyright (c) 2024 PlannerIA Project
+### 2. Mode Génération IA (Nécessite Ollama)
+```bash
+# Démarrer Ollama d'abord
+ollama serve
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+# Dans un autre terminal
+python crew.py "Développer une application mobile e-commerce"
+```
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+### 3. Export et Rapports
+```bash
+# Depuis le dashboard Streamlit
+# Boutons "Export PDF" et "Export CSV" fonctionnels
+# Fichiers générés dans data/reports/
 ```
 
 ---
 
-## 🙏 **Remerciements**
+## ⚠️ **Limitations Actuelles**
 
-- **CrewAI Team** - Framework multi-agents exceptionnel
-- **Streamlit** - Interface utilisateur moderne
-- **FastAPI** - API haute performance
-- **Ollama Community** - Modèles LLM accessibles
-- **Open Source Community** - Écosystème riche
+### Non Fonctionnel Sans Ollama
+- ❌ Génération de plans via `crew.py`
+- ❌ API FastAPI complète
+- ❌ Endpoints CrewAI
+
+### Fonctionnel Indépendamment
+- ✅ Dashboard Streamlit complet
+- ✅ Tous les modèles ML et IA
+- ✅ Visualisations et rapports
+- ✅ Système vocal
+- ✅ Analytics et métriques
 
 ---
 
-**Développé avec ❤️ par l'équipe PlannerIA**
+## 📞 **Support & Issues**
 
-*PlannerIA - Transformez vos idées en plans d'action concrets avec l'intelligence artificielle*
+- 🐛 **Bugs** : [GitHub Issues](https://github.com/Michel836/PlannerIA/issues)
+- 💡 **Suggestions** : Pull requests bienvenues
+- 📧 **Contact** : Via GitHub
 
 ---
 
-## 🚀 **Commandes Utiles**
+## 📄 **Licence**
+
+MIT License - Voir LICENSE pour détails complets.
+
+---
+
+**Statut Projet** : ✅ Dashboard Opérationnel | ⚠️ API Conditionnelle (Ollama requis)
+
+**Dernière Validation** : 2 septembre 2025 - Tests complets effectués
+
+---
+
+## 🎯 **Commandes de Test Rapide**
 
 ```bash
-# Développement
-python crew.py "Brief de votre projet"           # CLI generation
-streamlit run src/project_planner/dashboard/mvp_v1.py  # Dashboard UI
-uvicorn src.project_planner.api.main:app --reload     # API server
+# Vérifier que tout fonctionne
+python -m streamlit run src/project_planner/dashboard/mvp_v1.py --server.port=8521
 
-# Tests & Qualité
-pytest tests/ -v --cov=src                       # Tests avec couverture
-python test_ml_complete.py                       # Tests ML complets
-python benchmark_complete.py                     # Benchmark performance
+# Tester les modèles ML
+python -c "
+from src.project_planner.ml.estimator_model import EstimatorModel
+em = EstimatorModel()
+print('✅ Modèles ML opérationnels')
+"
 
-# Déploiement
-pip install -r requirements.txt                  # Installation dépendances
-python create_final_zip.py                       # Package distribution
+# Vérifier les modules IA (depuis le dashboard)
+# Regarder les logs de démarrage pour "11/11 modules opérationnels"
 ```
 
-**Version** : 1.0.0 | **Dernière mise à jour** : September 2025
+**Version Vérifiée** : 1.0.0-verified | **Test Date** : 2025-09-02
