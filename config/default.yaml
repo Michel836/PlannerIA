@@ -1,0 +1,94 @@
+# PlannerIA Configuration
+
+# AI Model Configuration
+ai:
+  provider: "ollama"                      # <-- utiliser Ollama local
+  primary_model: "heavylildude/magnus"    # <-- modèle choisi
+  fallback_model: "heavylildude/magnus"
+  temperature: 0.1
+  max_tokens: 4000
+  timeout: 120
+
+  # Ollama-specific (optional)
+  ollama:
+    host: "http://localhost:11434"
+    model: "heavylildude/magnus"
+    use_http_api: true
+
+# Agent Configuration
+agents:
+  supervisor:
+    role: "Project Supervisor"
+    max_iterations: 3
+    delegation_enabled: true
+  
+  planner:
+    role: "Project Planner"
+    focus_areas: ["wbs", "dependencies", "deliverables"]
+    
+  estimator:
+    role: "Estimation Specialist"
+    estimation_methods: ["expert_judgment", "analogy", "parametric"]
+    
+  risk:
+    role: "Risk Analyst"
+    risk_categories: ["technical", "schedule", "budget", "resource", "external"]
+    
+  documentation:
+    role: "Documentation Specialist"
+    output_formats: ["markdown", "slides", "executive_summary"]
+
+# RAG Configuration
+rag:
+  embedding_model: "all-MiniLM-L6-v2"
+  chunk_size: 500
+  overlap_size: 50
+  similarity_threshold: 0.7
+  max_results: 5
+
+# Validation Configuration
+validation:
+  schema_path: "schema/plan.schema.json"
+  strict_mode: true
+  auto_correction: true
+
+# Optimization Configuration
+optimization:
+  enable_critical_path: true
+  enable_resource_leveling: false
+  enable_cost_optimization: true
+
+# Export Configuration
+exports:
+  formats: ["json", "markdown", "csv", "pdf"]
+  include_visualizations: true
+  include_citations: true
+
+# ML Configuration
+ml:
+  enable_predictions: true
+  model_path: "data/models/"
+  retrain_threshold: 100
+  confidence_threshold: 0.8
+
+# Dashboard Configuration
+dashboard:
+  theme: "light"
+  auto_refresh: 30
+  max_runs_display: 50
+  enable_whatif: true
+
+# API Configuration
+api:
+  rate_limit: 100
+  enable_auth: false
+  cors_origins: ["*"]
+  request_timeout: 300
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/planneriai.log"
+  max_size: "10MB"
+  backup_count: 5

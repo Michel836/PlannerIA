@@ -1,0 +1,121 @@
+{
+  "run_id": "98bfe6ec-6a6c-4c6f-b809-66c5dc29c978",
+  "timestamp": "2025-09-01T17:38:02.990285",
+  "brief": "Créer un site web simple avec une page d’accueil et un formulaire de contact.",
+  "status": "fallback_generated",
+  "project_overview": {
+    "title": "Projet Innovant Créer un site web simple avec ...",
+    "description": "Créer un site web simple avec une page d’accueil et un formulaire de contact.",
+    "objectives": [
+      "Développer une solution innovante et performante",
+      "Assurer une intégration technique robuste",
+      "Optimiser l'expérience utilisateur",
+      "Garantir la sécurité et la conformité"
+    ],
+    "total_duration": 51.7659348211225,
+    "total_cost": 30336.521856188352,
+    "team_size": 6
+  },
+  "wbs": {
+    "phases": [
+      {
+        "id": "phase_1",
+        "name": "Planification et Conception",
+        "duration": 16.299499360228968,
+        "tasks": [
+          {
+            "id": "task_1_1",
+            "name": "Analyse des besoins",
+            "description": "Analyse des besoins - fonctionnels et techniques",
+            "duration": 3.8409989411479564,
+            "cost": 5045.833002274879,
+            "priority": "high"
+          },
+          {
+            "id": "task_1_2",
+            "name": "Architecture technique",
+            "description": "Architecture technique - et conception système",
+            "duration": 6.928734071314405,
+            "cost": 3428.4533821285304,
+            "priority": "high"
+          },
+          {
+            "id": "task_1_3",
+            "name": "Design UI/UX",
+            "description": "Design UI/UX - et prototypes",
+            "duration": 5.529766347766605,
+            "cost": 4017.0556667675824,
+            "priority": "medium"
+          }
+        ]
+      },
+      {
+        "id": "phase_2",
+        "name": "Développement et Tests",
+        "duration": 35.466435460893535,
+        "tasks": [
+          {
+            "id": "task_2_1",
+            "name": "Développement Core",
+            "description": "Développement Core - fonctionnalités principales",
+            "duration": 10.75074708987173,
+            "cost": 7275.344357050412,
+            "priority": "high"
+          },
+          {
+            "id": "task_2_2",
+            "name": "Intégrations",
+            "description": "Intégrations - APIs et services externes",
+            "duration": 10.275808796850527,
+            "cost": 4862.925481253296,
+            "priority": "high"
+          },
+          {
+            "id": "task_2_3",
+            "name": "Tests et validation",
+            "description": "Tests et validation - qualité et performance",
+            "duration": 14.439879574171275,
+            "cost": 5706.909966713651,
+            "priority": "high"
+          }
+        ]
+      }
+    ]
+  },
+  "risks": [
+    {
+      "id": "risk_1",
+      "name": "Complexité technique sous-estimée",
+      "probability": "medium",
+      "impact": 4,
+      "mitigation": "Prévoir buffer de 20% sur temps et budget"
+    },
+    {
+      "id": "risk_2",
+      "name": "Intégration complexe",
+      "probability": 4,
+      "impact": "medium",
+      "mitigation": "Tests précoces et validation"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone_1",
+      "name": "Fin de conception",
+      "date": "2025-09-15",
+      "deliverables": [
+        "Architecture validée",
+        "Maquettes approuvées"
+      ]
+    },
+    {
+      "id": "milestone_2",
+      "name": "Version finale",
+      "date": "2025-10-15",
+      "deliverables": [
+        "Application fonctionnelle",
+        "Tests réussis"
+      ]
+    }
+  ]
+}

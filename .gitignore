@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.local/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+secrets/
+*credentials*
+*.key
+*.pem
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Data files
+data/runs/*
+!data/runs/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+data/*.json
+data/*.csv
+
+# Cache
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+nul
+
+# Replit specific
+.replit
+replit.md
+uv.lock
+pyproject.toml
+
+# Archive and experimental
+archive_experimental/
+archive_root_clutter/
+attached_assets/
+docs_to_review/
+
+# Project specific files to exclude
+BUILD_*.md
+URGENT_*.md
+MVP_DEFINITION.md
+README_USB.md
+GUIDE_UTILISATION_EXPERT.md
+comprehensive_ai_pipeline.md
+collect_docs.py
+metriques_finales.py
+llm_*.py
+create_*.py
+create_*.bat
+create_*.ps1
+install_plannerai*.bat
+benchmark_*.py
+test_ml_*.py
+METRIQUES_*.md
+RESULTATS_*.md
+VALIDATION_*.md
+tableau_metriques_final.txt
+voice_requirements.txt
+crew.py
+*.zip

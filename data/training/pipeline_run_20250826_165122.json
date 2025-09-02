@@ -1,0 +1,4206 @@
+{
+  "metadata": {
+    "created_at": "2025-08-26T16:51:22.007307",
+    "total_samples": 100,
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "id": "synthetic_task_00000",
+      "name": "Optimize highly complex wireframe",
+      "description": "Develop responsive user interface components with modern frameworks with enterprise-grade requirements for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 16.0,
+      "cost": 41076.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "very_complex",
+      "domain": "fintech",
+      "team_size": 6,
+      "assigned_resources": [
+        "Lead Frontend Developer 1",
+        "Mid-level Frontend Architect 2",
+        "Mid-level UI/UX Designer 3",
+        "Junior UI/UX Designer 4",
+        "Lead Frontend Architect 5",
+        "Senior Frontend Architect 6"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Security audit completion",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "UI Components",
+        "User Interface Documentation",
+        "Design Mockups",
+        "Responsive Layout",
+        "Accessibility Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00001",
+      "name": "Configure standard angular",
+      "description": "Develop responsive user interface components with modern frameworks following established patterns for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 5537.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "simple",
+      "domain": "ecommerce",
+      "team_size": 1,
+      "assigned_resources": [
+        "Mid-level Frontend Architect 1"
+      ],
+      "required_skills": [
+        "HTML",
+        "TypeScript",
+        "CSS",
+        "React"
+      ],
+      "dependencies": [
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Responsive Layout",
+        "Design Mockups"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00002",
+      "name": "Optimize highly complex kpi",
+      "description": "Implement analytics solution with real-time capabilities meeting strict compliance standards for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 13.0,
+      "cost": 20400.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "very_complex",
+      "domain": "ecommerce",
+      "team_size": 5,
+      "assigned_resources": [
+        "Senior Data Engineer 1",
+        "Junior ML Engineer 2",
+        "Senior Data Scientist 3",
+        "Mid-level ML Engineer 4",
+        "Senior Analytics Specialist 5"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Database schema setup",
+        "Code review completion",
+        "Security audit completion",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Performance Metrics",
+        "Data Pipeline",
+        "Data Models",
+        "Documentation",
+        "Analytics Dashboard",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00003",
+      "name": "Integrate typical kpi",
+      "description": "Design machine learning model with performance tracking with proper error handling for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4971.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior Data Engineer 1",
+        "Senior Data Engineer 2"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "SQL",
+        "ETL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Documentation",
+        "Performance Metrics",
+        "Data Pipeline",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00004",
+      "name": "Extend standard integration",
+      "description": "Implement automated testing suite with coverage reporting with standard practices for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 2417.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "simple",
+      "domain": "education",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead QA Engineer 1",
+        "Junior Quality Analyst 2"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Test Planning",
+        "Pytest"
+      ],
+      "dependencies": [
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Automated Test Suite",
+        "Quality Metrics",
+        "Test Cases",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00005",
+      "name": "Create Basic Monitoring System",
+      "description": "Develop quality assurance processes and documentation following established patterns for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 9.0,
+      "cost": 18385.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "simple",
+      "domain": "enterprise",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior Quality Analyst 1"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Jest"
+      ],
+      "dependencies": [
+        "Authentication system",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Test Cases",
+        "Automated Test Suite",
+        "Test Reports",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00006",
+      "name": "Implement Straightforward Reporting",
+      "description": "Build data processing pipeline with validation and monitoring following established patterns for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 3477.0,
+      "priority": "high",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "simple",
+      "domain": "education",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior Data Scientist 1"
+      ],
+      "required_skills": [
+        "Python",
+        "Machine Learning",
+        "ETL",
+        "SQL"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "Data Models",
+        "Analytics Dashboard",
+        "Performance Metrics",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00007",
+      "name": "Build basic pipeline",
+      "description": "Design machine learning model with performance tracking following established patterns for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 12658.0,
+      "priority": "critical",
+      "task_type": "data",
+      "subcategory": "data_processing",
+      "complexity_level": "simple",
+      "domain": "healthcare",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior Data Engineer 1",
+        "Senior Data Scientist 2"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "SQL",
+        "ETL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Data Pipeline",
+        "Documentation",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00008",
+      "name": "Advanced Monitoring Extend",
+      "description": "Configure automated deployment pipeline with monitoring with advanced features for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 11.0,
+      "cost": 11758.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "complex",
+      "domain": "fintech",
+      "team_size": 5,
+      "assigned_resources": [
+        "Lead Security Engineer 1",
+        "Lead DevOps Engineer 2",
+        "Mid-level Infrastructure Specialist 3",
+        "Junior Infrastructure Specialist 4",
+        "Senior Infrastructure Specialist 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Design system approval",
+        "Security audit completion"
+      ],
+      "deliverables": [
+        "Monitoring Setup",
+        "Security Configuration",
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00009",
+      "name": "Implement Highly Complex Automation",
+      "description": "Configure automated deployment pipeline with monitoring meeting strict compliance standards for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 13.0,
+      "cost": 10663.0,
+      "priority": "critical",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "very_complex",
+      "domain": "ecommerce",
+      "team_size": 5,
+      "assigned_resources": [
+        "Junior Security Engineer 1",
+        "Senior Security Engineer 2",
+        "Senior Security Engineer 3",
+        "Senior Security Engineer 4",
+        "Lead Security Engineer 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "Infrastructure provisioning",
+        "Performance baseline establishment",
+        "Compliance review",
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Monitoring Setup",
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "Security Configuration",
+        "Deployment Scripts",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00010",
+      "name": "Develop Tablet For Cart",
+      "description": "Create interactive user experience following design system guidelines following established patterns for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 5247.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "responsive",
+      "complexity_level": "simple",
+      "domain": "ecommerce",
+      "team_size": 1,
+      "assigned_resources": [
+        "Lead UI/UX Designer 1"
+      ],
+      "required_skills": [
+        "CSS",
+        "TypeScript",
+        "React"
+      ],
+      "dependencies": [
+        "Database schema setup",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Design Mockups",
+        "Accessibility Report",
+        "Responsive Layout",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00011",
+      "name": "Deploy challenging jest",
+      "description": "Develop quality assurance processes and documentation ensuring high performance and scalability for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 8294.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "unit_testing",
+      "complexity_level": "complex",
+      "domain": "fintech",
+      "team_size": 4,
+      "assigned_resources": [
+        "Lead QA Engineer 1",
+        "Senior Quality Analyst 2",
+        "Mid-level Test Automation Specialist 3",
+        "Lead Test Automation Specialist 4"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Database schema setup",
+        "Code review completion",
+        "Infrastructure provisioning",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Test Reports",
+        "Quality Metrics",
+        "Automated Test Suite",
+        "Test Cases",
+        "Bug Reports"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.622107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00012",
+      "name": "Customize advanced performance",
+      "description": "Design comprehensive testing strategy covering edge cases ensuring high performance and scalability for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 9.0,
+      "cost": 11447.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "complex",
+      "domain": "ecommerce",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead Test Automation Specialist 1",
+        "Senior QA Engineer 2",
+        "Mid-level Quality Analyst 3"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Database schema setup",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Automated Test Suite",
+        "Quality Metrics",
+        "Test Reports",
+        "Test Cases",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00013",
+      "name": "Complex Microservice Migrate",
+      "description": "Implement data processing logic with security best practices with advanced features for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 24.0,
+      "cost": 31061.0,
+      "priority": "low",
+      "task_type": "backend",
+      "subcategory": "api_development",
+      "complexity_level": "complex",
+      "domain": "enterprise",
+      "team_size": 4,
+      "assigned_resources": [
+        "Junior Backend Developer 1",
+        "Senior Backend Developer 2",
+        "Junior Solutions Architect 3",
+        "Mid-level Database Specialist 4"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Infrastructure provisioning",
+        "Authentication system",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Database Schema",
+        "Integration Tests",
+        "Service Implementation",
+        "Performance Benchmarks",
+        "API Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00014",
+      "name": "Implement Simple Docker",
+      "description": "Set up infrastructure as code with scalability considerations following established patterns for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 17601.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "infrastructure",
+      "complexity_level": "simple",
+      "domain": "fintech",
+      "team_size": 1,
+      "assigned_resources": [
+        "Senior DevOps Engineer 1"
+      ],
+      "required_skills": [
+        "AWS",
+        "Kubernetes",
+        "CI/CD"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "CI/CD Pipeline",
+        "Monitoring Setup",
+        "Infrastructure as Code",
+        "Technical Documentation"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00015",
+      "name": "Configure regular third-party",
+      "description": "Build scalable server-side architecture with proper error handling including comprehensive testing for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 15.0,
+      "cost": 12589.0,
+      "priority": "medium",
+      "task_type": "backend",
+      "subcategory": "integration",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Backend Developer 1",
+        "Junior Database Specialist 2"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "Compliance review",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Service Implementation",
+        "Database Schema",
+        "API Documentation",
+        "Integration Tests",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00016",
+      "name": "Typical Interface Design",
+      "description": "Create interactive user experience following design system guidelines including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 17184.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead UI/UX Designer 1",
+        "Mid-level Frontend Architect 2",
+        "Mid-level Frontend Developer 3"
+      ],
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Database schema setup"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Accessibility Report",
+        "Design Mockups",
+        "UI Components",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00017",
+      "name": "Extend complex third-party",
+      "description": "Implement data processing logic with security best practices ensuring high performance and scalability for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 32.0,
+      "cost": 28272.0,
+      "priority": "medium",
+      "task_type": "backend",
+      "subcategory": "integration",
+      "complexity_level": "complex",
+      "domain": "education",
+      "team_size": 4,
+      "assigned_resources": [
+        "Senior Solutions Architect 1",
+        "Junior Backend Developer 2",
+        "Junior DevOps Engineer 3",
+        "Junior DevOps Engineer 4"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Performance baseline establishment",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Integration Tests",
+        "Service Implementation",
+        "Database Schema",
+        "Performance Benchmarks"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00018",
+      "name": "Create Standard Caching System",
+      "description": "Develop quality assurance processes and documentation following established patterns for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 4610.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "simple",
+      "domain": "ecommerce",
+      "team_size": 1,
+      "assigned_resources": [
+        "Senior Quality Analyst 1"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Test Planning"
+      ],
+      "dependencies": [
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Test Reports",
+        "Quality Metrics",
+        "Technical Documentation",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00019",
+      "name": "Implement Mission-Critical Schema",
+      "description": "Develop robust API endpoints with comprehensive validation meeting strict compliance standards for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 22.0,
+      "cost": 31925.0,
+      "priority": "high",
+      "task_type": "backend",
+      "subcategory": "database",
+      "complexity_level": "very_complex",
+      "domain": "healthcare",
+      "team_size": 5,
+      "assigned_resources": [
+        "Lead Solutions Architect 1",
+        "Mid-level Solutions Architect 2",
+        "Junior Database Specialist 3",
+        "Senior Database Specialist 4",
+        "Lead Database Specialist 5"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Code review completion",
+        "Performance baseline establishment",
+        "Authentication system",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Service Implementation",
+        "Integration Tests",
+        "Performance Benchmarks",
+        "Database Schema",
+        "API Documentation",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00020",
+      "name": "Develop Component For Shop",
+      "description": "Create interactive user experience following design system guidelines following established patterns for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4126.0,
+      "priority": "critical",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "simple",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior UI/UX Designer 1",
+        "Junior Frontend Architect 2"
+      ],
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "React"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "User Interface Documentation",
+        "UI Components",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00021",
+      "name": "Deploy standard pipeline",
+      "description": "Configure automated deployment pipeline with monitoring with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 17865.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Mid-level Infrastructure Specialist 1",
+        "Lead Infrastructure Specialist 2",
+        "Junior Infrastructure Specialist 3"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Infrastructure as Code",
+        "CI/CD Pipeline",
+        "Security Configuration",
+        "Deployment Scripts",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00022",
+      "name": "Refactor standard deployment",
+      "description": "Set up infrastructure as code with scalability considerations with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 14436.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Infrastructure Specialist 1",
+        "Mid-level DevOps Engineer 2"
+      ],
+      "required_skills": [
+        "AWS",
+        "Terraform",
+        "CI/CD",
+        "Docker"
+      ],
+      "dependencies": [
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Security Configuration",
+        "Monitoring Setup",
+        "Deployment Scripts",
+        "Infrastructure as Code",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00023",
+      "name": "Create advanced ci/cd",
+      "description": "Implement CI/CD workflows with quality gates ensuring high performance and scalability for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 14392.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "complex",
+      "domain": "healthcare",
+      "team_size": 5,
+      "assigned_resources": [
+        "Senior DevOps Engineer 1",
+        "Mid-level Security Engineer 2",
+        "Lead DevOps Engineer 3",
+        "Senior Infrastructure Specialist 4",
+        "Mid-level Infrastructure Specialist 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Authentication system",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "CI/CD Pipeline",
+        "Monitoring Setup",
+        "Deployment Scripts",
+        "Infrastructure as Code",
+        "Security Configuration",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00024",
+      "name": "Develop moderate metrics",
+      "description": "Configure automated deployment pipeline with monitoring with proper error handling for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 9023.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Mid-level Security Engineer 1",
+        "Mid-level DevOps Engineer 2"
+      ],
+      "required_skills": [
+        "Terraform",
+        "Kubernetes",
+        "Docker"
+      ],
+      "dependencies": [
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "Monitoring Setup",
+        "CI/CD Pipeline",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00025",
+      "name": "Implement Regular Angular",
+      "description": "Implement client-side functionality with performance optimization with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 9.0,
+      "cost": 16499.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead Frontend Architect 1",
+        "Lead UI/UX Designer 2",
+        "Junior Frontend Developer 3"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Security audit completion"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Responsive Layout",
+        "Design Mockups",
+        "Accessibility Report",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00026",
+      "name": "Extend Wallet Ai",
+      "description": "Implement analytics solution with real-time capabilities including comprehensive testing for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 28269.0,
+      "priority": "low",
+      "task_type": "data",
+      "subcategory": "ml_ai",
+      "complexity_level": "trivial",
+      "domain": "fintech",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior Data Engineer 1"
+      ],
+      "required_skills": [
+        "Python",
+        "ETL"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "Analytics Dashboard",
+        "Data Pipeline"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00027",
+      "name": "Develop enterprise-grade metrics",
+      "description": "Implement CI/CD workflows with quality gates meeting strict compliance standards for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 15.0,
+      "cost": 14546.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "very_complex",
+      "domain": "fintech",
+      "team_size": 5,
+      "assigned_resources": [
+        "Mid-level Infrastructure Specialist 1",
+        "Junior DevOps Engineer 2",
+        "Junior DevOps Engineer 3",
+        "Junior DevOps Engineer 4",
+        "Lead Infrastructure Specialist 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Authentication system",
+        "Database schema setup",
+        "User acceptance testing",
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Deployment Scripts",
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Monitoring Setup",
+        "CI/CD Pipeline",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00028",
+      "name": "Build straightforward adaptive",
+      "description": "Develop responsive user interface components with modern frameworks following established patterns for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 2.0,
+      "cost": 1485.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "responsive",
+      "complexity_level": "simple",
+      "domain": "startup",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior UI/UX Designer 1"
+      ],
+      "required_skills": [
+        "HTML",
+        "JavaScript",
+        "React",
+        "TypeScript"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "UI Components",
+        "User Interface Documentation",
+        "Responsive Layout",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00029",
+      "name": "Extend typical analytics",
+      "description": "Implement analytics solution with real-time capabilities with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 11.0,
+      "cost": 24378.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Mid-level Analytics Specialist 1",
+        "Senior Data Scientist 2"
+      ],
+      "required_skills": [
+        "Machine Learning",
+        "Python",
+        "ETL",
+        "SQL"
+      ],
+      "dependencies": [
+        "Authentication system",
+        "User acceptance testing",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Data Models",
+        "Analytics Dashboard",
+        "Data Pipeline",
+        "Documentation",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00030",
+      "name": "Build Widget With Caching Support",
+      "description": "Implement client-side functionality with performance optimization with advanced features for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 8264.0,
+      "priority": "low",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "complex",
+      "domain": "ecommerce",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior UI/UX Designer 1",
+        "Senior Frontend Developer 2",
+        "Lead Frontend Architect 3"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Database schema setup",
+        "Compliance review",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "UI Components",
+        "Design Mockups",
+        "Accessibility Report",
+        "Responsive Layout",
+        "User Interface Documentation",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00031",
+      "name": "Create Complex Validation System",
+      "description": "Implement CI/CD workflows with quality gates with advanced features for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 10.0,
+      "cost": 8520.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "infrastructure",
+      "complexity_level": "complex",
+      "domain": "education",
+      "team_size": 5,
+      "assigned_resources": [
+        "Mid-level Infrastructure Specialist 1",
+        "Junior Infrastructure Specialist 2",
+        "Lead Security Engineer 3",
+        "Mid-level DevOps Engineer 4",
+        "Mid-level DevOps Engineer 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "Monitoring Setup",
+        "Security Configuration",
+        "Technical Documentation",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00032",
+      "name": "Customize basic load testing",
+      "description": "Implement automated testing suite with coverage reporting following established patterns for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4100.0,
+      "priority": "critical",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "simple",
+      "domain": "education",
+      "team_size": 2,
+      "assigned_resources": [
+        "Mid-level QA Engineer 1",
+        "Senior Quality Analyst 2"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Jest",
+        "Pytest"
+      ],
+      "dependencies": [
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Test Reports",
+        "Quality Metrics",
+        "Technical Documentation",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00033",
+      "name": "Implement moderate authentication",
+      "description": "Build scalable server-side architecture with proper error handling including comprehensive testing for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 15.0,
+      "cost": 27794.0,
+      "priority": "high",
+      "task_type": "backend",
+      "subcategory": "security",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior Database Specialist 1",
+        "Junior Backend Developer 2"
+      ],
+      "required_skills": [
+        "API Design",
+        "Java",
+        "SQL",
+        "Microservices"
+      ],
+      "dependencies": [
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "API Documentation",
+        "Service Implementation",
+        "Performance Benchmarks",
+        "Database Schema",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00034",
+      "name": "Implement regular wireframe",
+      "description": "Implement client-side functionality with performance optimization including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 5603.0,
+      "priority": "low",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead UI/UX Designer 1",
+        "Senior Frontend Architect 2"
+      ],
+      "required_skills": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Design Mockups",
+        "UI Components",
+        "Accessibility Report",
+        "Responsive Layout",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.623107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00035",
+      "name": "Design highly complex benchmark",
+      "description": "Implement automated testing suite with coverage reporting meeting strict compliance standards for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 18.0,
+      "cost": 31126.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "very_complex",
+      "domain": "enterprise",
+      "team_size": 6,
+      "assigned_resources": [
+        "Mid-level Test Automation Specialist 1",
+        "Junior Test Automation Specialist 2",
+        "Senior QA Engineer 3",
+        "Senior QA Engineer 4",
+        "Senior Test Automation Specialist 5",
+        "Senior Test Automation Specialist 6"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Compliance review",
+        "Database schema setup",
+        "Code review completion",
+        "Third-party API integration",
+        "Security audit completion"
+      ],
+      "deliverables": [
+        "Test Reports",
+        "Test Cases",
+        "Quality Metrics",
+        "Automated Test Suite",
+        "Bug Reports",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00036",
+      "name": "Develop advanced machine learning",
+      "description": "Implement analytics solution with real-time capabilities ensuring high performance and scalability for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 48.0,
+      "cost": 91634.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "ml_ai",
+      "complexity_level": "complex",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Mid-level ML Engineer 1",
+        "Junior Data Engineer 2",
+        "Junior ML Engineer 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Compliance review",
+        "Infrastructure provisioning",
+        "Authentication system",
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Performance Metrics",
+        "Analytics Dashboard",
+        "Data Models",
+        "Documentation",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00037",
+      "name": "Migrate straightforward logging",
+      "description": "Configure automated deployment pipeline with monitoring following established patterns for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4740.0,
+      "priority": "low",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "simple",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead Security Engineer 1",
+        "Junior Infrastructure Specialist 2"
+      ],
+      "required_skills": [
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "Docker"
+      ],
+      "dependencies": [
+        "Authentication system",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Deployment Scripts",
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "Technical Documentation",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00038",
+      "name": "Extend complex etl",
+      "description": "Implement analytics solution with real-time capabilities with advanced features for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 21.0,
+      "cost": 22339.0,
+      "priority": "high",
+      "task_type": "data",
+      "subcategory": "data_processing",
+      "complexity_level": "complex",
+      "domain": "ecommerce",
+      "team_size": 5,
+      "assigned_resources": [
+        "Senior Data Scientist 1",
+        "Mid-level Data Scientist 2",
+        "Junior Data Engineer 3",
+        "Mid-level Analytics Specialist 4",
+        "Senior Analytics Specialist 5"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "SQL",
+        "ETL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Authentication system",
+        "Database schema setup",
+        "Third-party API integration",
+        "Infrastructure provisioning",
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Performance Metrics",
+        "Analytics Dashboard",
+        "Documentation",
+        "Data Pipeline",
+        "Data Models",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00039",
+      "name": "Build sophisticated testing",
+      "description": "Develop quality assurance processes and documentation ensuring high performance and scalability for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 3335.0,
+      "priority": "high",
+      "task_type": "testing",
+      "subcategory": "unit_testing",
+      "complexity_level": "complex",
+      "domain": "ecommerce",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior Quality Analyst 1",
+        "Lead Test Automation Specialist 2",
+        "Lead Quality Analyst 3"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Database schema setup",
+        "Code review completion",
+        "Security audit completion",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Quality Metrics",
+        "Test Reports",
+        "Bug Reports",
+        "Test Cases",
+        "Automated Test Suite",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00040",
+      "name": "Create Advanced Monitoring System",
+      "description": "Implement CI/CD workflows with quality gates with advanced features for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 7219.0,
+      "priority": "low",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "complex",
+      "domain": "education",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead Infrastructure Specialist 1",
+        "Mid-level Security Engineer 2",
+        "Mid-level Security Engineer 3"
+      ],
+      "required_skills": [
+        "AWS",
+        "Terraform",
+        "CI/CD",
+        "Docker"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Code review completion",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Security Configuration",
+        "Monitoring Setup",
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00041",
+      "name": "Implement moderate lazy loading",
+      "description": "Develop responsive user interface components with modern frameworks with proper error handling for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 15.0,
+      "cost": 12923.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "optimization",
+      "complexity_level": "medium",
+      "domain": "fintech",
+      "team_size": 2,
+      "assigned_resources": [
+        "Mid-level Frontend Developer 1",
+        "Lead Frontend Architect 2"
+      ],
+      "required_skills": [
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "TypeScript"
+      ],
+      "dependencies": [
+        "Database schema setup",
+        "Third-party API integration",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Accessibility Report",
+        "Design Mockups",
+        "UI Components",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00042",
+      "name": "Build Metrics With Monitoring Support",
+      "description": "Set up infrastructure as code with scalability considerations including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 19803.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior DevOps Engineer 1",
+        "Mid-level Infrastructure Specialist 2",
+        "Senior Infrastructure Specialist 3"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "User acceptance testing",
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Deployment Scripts",
+        "Infrastructure as Code",
+        "Security Configuration",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00043",
+      "name": "Develop Optimization For Automation",
+      "description": "Implement client-side functionality with performance optimization with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 15.0,
+      "cost": 35433.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "optimization",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior UI/UX Designer 1",
+        "Junior Frontend Developer 2",
+        "Lead Frontend Developer 3"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Authentication system",
+        "Design system approval"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Accessibility Report",
+        "UI Components",
+        "Design Mockups",
+        "Code Review Report",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00044",
+      "name": "Implement mission-critical metrics",
+      "description": "Set up infrastructure as code with scalability considerations meeting strict compliance standards for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 4389.0,
+      "priority": "low",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "very_complex",
+      "domain": "startup",
+      "team_size": 6,
+      "assigned_resources": [
+        "Junior DevOps Engineer 1",
+        "Mid-level DevOps Engineer 2",
+        "Senior Infrastructure Specialist 3",
+        "Senior Security Engineer 4",
+        "Lead Infrastructure Specialist 5",
+        "Junior Security Engineer 6"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Compliance review",
+        "Third-party API integration",
+        "Code review completion",
+        "Design system approval"
+      ],
+      "deliverables": [
+        "Monitoring Setup",
+        "CI/CD Pipeline",
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "Technical Documentation",
+        "Code Review Report",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00045",
+      "name": "Develop Analytics For Growth",
+      "description": "Design machine learning model with performance tracking including comprehensive testing for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 2231.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "medium",
+      "domain": "startup",
+      "team_size": 3,
+      "assigned_resources": [
+        "Junior Analytics Specialist 1",
+        "Lead Data Engineer 2",
+        "Lead ML Engineer 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Data Pipeline",
+        "Documentation",
+        "Performance Metrics",
+        "Analytics Dashboard",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00046",
+      "name": "Create Moderate Validation System",
+      "description": "Design comprehensive testing strategy covering edge cases with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 10.0,
+      "cost": 21260.0,
+      "priority": "critical",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Test Automation Specialist 1",
+        "Mid-level QA Engineer 2"
+      ],
+      "required_skills": [
+        "Automation",
+        "Test Planning",
+        "Jest",
+        "Pytest"
+      ],
+      "dependencies": [
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Quality Metrics",
+        "Test Cases",
+        "Bug Reports"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00047",
+      "name": "Enhance moderate react",
+      "description": "Implement client-side functionality with performance optimization including comprehensive testing for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 3525.0,
+      "priority": "urgent",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "medium",
+      "domain": "education",
+      "team_size": 2,
+      "assigned_resources": [
+        "Mid-level UI/UX Designer 1",
+        "Mid-level Frontend Architect 2"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "User acceptance testing",
+        "Design system approval"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Design Mockups",
+        "Accessibility Report",
+        "Responsive Layout"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00048",
+      "name": "Extend moderate authorization",
+      "description": "Implement data processing logic with security best practices with proper error handling for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 17.0,
+      "cost": 13463.0,
+      "priority": "high",
+      "task_type": "backend",
+      "subcategory": "security",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 3,
+      "assigned_resources": [
+        "Junior Backend Developer 1",
+        "Lead DevOps Engineer 2",
+        "Mid-level Backend Developer 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Service Implementation",
+        "Integration Tests",
+        "Database Schema",
+        "Performance Benchmarks",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00049",
+      "name": "Setup typical automation",
+      "description": "Develop quality assurance processes and documentation including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 11.0,
+      "cost": 15340.0,
+      "priority": "high",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior QA Engineer 1",
+        "Senior Test Automation Specialist 2"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Test Planning",
+        "Jest"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Third-party API integration",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Automated Test Suite",
+        "Test Cases",
+        "Test Reports",
+        "Quality Metrics",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00050",
+      "name": "Highly Complex Optimization Optimize",
+      "description": "Create interactive user experience following design system guidelines meeting strict compliance standards for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 40.0,
+      "cost": 70594.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "optimization",
+      "complexity_level": "very_complex",
+      "domain": "enterprise",
+      "team_size": 6,
+      "assigned_resources": [
+        "Lead Frontend Developer 1",
+        "Senior Frontend Developer 2",
+        "Mid-level Frontend Developer 3",
+        "Senior UI/UX Designer 4",
+        "Lead Frontend Architect 5",
+        "Junior Frontend Architect 6"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "User acceptance testing",
+        "Compliance review",
+        "Database schema setup",
+        "Design system approval",
+        "Code review completion",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Accessibility Report",
+        "Responsive Layout",
+        "Design Mockups",
+        "UI Components",
+        "Technical Documentation",
+        "Code Review Report",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00051",
+      "name": "Implement Complex Dashboard",
+      "description": "Design machine learning model with performance tracking ensuring high performance and scalability for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 12676.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "complex",
+      "domain": "education",
+      "team_size": 4,
+      "assigned_resources": [
+        "Mid-level Data Scientist 1",
+        "Junior ML Engineer 2",
+        "Mid-level Data Engineer 3",
+        "Junior ML Engineer 4"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Third-party API integration",
+        "Code review completion",
+        "Database schema setup",
+        "Security audit completion"
+      ],
+      "deliverables": [
+        "Analytics Dashboard",
+        "Data Pipeline",
+        "Performance Metrics",
+        "Documentation",
+        "Data Models",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00052",
+      "name": "Implement straightforward automation",
+      "description": "Configure automated deployment pipeline with monitoring with standard practices for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 4011.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "simple",
+      "domain": "fintech",
+      "team_size": 1,
+      "assigned_resources": [
+        "Senior Infrastructure Specialist 1"
+      ],
+      "required_skills": [
+        "AWS",
+        "CI/CD"
+      ],
+      "dependencies": [
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Technical Documentation"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00053",
+      "name": "Typical Graphql Extend",
+      "description": "Implement data processing logic with security best practices with proper error handling for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 6.0,
+      "cost": 6282.0,
+      "priority": "low",
+      "task_type": "backend",
+      "subcategory": "api_development",
+      "complexity_level": "medium",
+      "domain": "education",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Backend Developer 1",
+        "Lead Database Specialist 2"
+      ],
+      "required_skills": [
+        "API Design",
+        "Java",
+        "SQL",
+        "Microservices"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Service Implementation",
+        "Database Schema",
+        "Integration Tests",
+        "Performance Benchmarks",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00054",
+      "name": "Create Moderate Validation System",
+      "description": "Implement data processing logic with security best practices including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 19.0,
+      "cost": 44782.0,
+      "priority": "high",
+      "task_type": "backend",
+      "subcategory": "integration",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead Database Specialist 1",
+        "Mid-level Database Specialist 2"
+      ],
+      "required_skills": [
+        "API Design",
+        "Python",
+        "Java",
+        "SQL"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Code review completion",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Performance Benchmarks",
+        "Integration Tests",
+        "Service Implementation",
+        "Database Schema",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00055",
+      "name": "Build Tablet With Optimization",
+      "description": "Create interactive user experience following design system guidelines including comprehensive testing for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 7382.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "responsive",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Frontend Developer 1",
+        "Lead UI/UX Designer 2"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Authentication system",
+        "Security audit completion"
+      ],
+      "deliverables": [
+        "UI Components",
+        "Accessibility Report",
+        "Responsive Layout",
+        "User Interface Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00056",
+      "name": "Customize mission-critical cloud",
+      "description": "Implement CI/CD workflows with quality gates with enterprise-grade requirements for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 19.0,
+      "cost": 53643.0,
+      "priority": "high",
+      "task_type": "devops",
+      "subcategory": "infrastructure",
+      "complexity_level": "very_complex",
+      "domain": "enterprise",
+      "team_size": 6,
+      "assigned_resources": [
+        "Mid-level Security Engineer 1",
+        "Senior Security Engineer 2",
+        "Mid-level DevOps Engineer 3",
+        "Lead Security Engineer 4",
+        "Mid-level DevOps Engineer 5",
+        "Mid-level Infrastructure Specialist 6"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Compliance review",
+        "User acceptance testing",
+        "Design system approval",
+        "Security audit completion",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "CI/CD Pipeline",
+        "Deployment Scripts",
+        "Infrastructure as Code",
+        "Monitoring Setup",
+        "Security Configuration",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00057",
+      "name": "Design typical machine learning",
+      "description": "Design machine learning model with performance tracking including comprehensive testing for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 22.0,
+      "cost": 43770.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "ml_ai",
+      "complexity_level": "medium",
+      "domain": "fintech",
+      "team_size": 3,
+      "assigned_resources": [
+        "Mid-level Data Scientist 1",
+        "Senior Analytics Specialist 2",
+        "Mid-level Data Scientist 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Compliance review",
+        "Performance baseline establishment",
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Analytics Dashboard",
+        "Data Pipeline",
+        "Data Models",
+        "Performance Metrics",
+        "Technical Documentation"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00058",
+      "name": "Modernize standard deployment",
+      "description": "Implement CI/CD workflows with quality gates with proper error handling for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 14628.0,
+      "priority": "high",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Mid-level Infrastructure Specialist 1",
+        "Senior DevOps Engineer 2"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Design system approval",
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.624107",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00059",
+      "name": "Deploy mission-critical model",
+      "description": "Implement analytics solution with real-time capabilities with enterprise-grade requirements for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 69.0,
+      "cost": 221638.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "ml_ai",
+      "complexity_level": "very_complex",
+      "domain": "fintech",
+      "team_size": 6,
+      "assigned_resources": [
+        "Mid-level Data Scientist 1",
+        "Mid-level Analytics Specialist 2",
+        "Lead Analytics Specialist 3",
+        "Senior ML Engineer 4",
+        "Junior Data Engineer 5",
+        "Mid-level Analytics Specialist 6"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "SQL",
+        "ETL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "Design system approval",
+        "Third-party API integration",
+        "Code review completion",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Data Pipeline",
+        "Documentation",
+        "Performance Metrics",
+        "Analytics Dashboard",
+        "Data Models",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00060",
+      "name": "Migrate basic coverage",
+      "description": "Implement automated testing suite with coverage reporting with standard practices for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4512.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "unit_testing",
+      "complexity_level": "simple",
+      "domain": "healthcare",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior QA Engineer 1"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Test Planning"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "Bug Reports",
+        "Quality Metrics",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00061",
+      "name": "Modernize trivial load testing",
+      "description": "Design comprehensive testing strategy covering edge cases with proper error handling for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 2.0,
+      "cost": 1987.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "trivial",
+      "domain": "ecommerce",
+      "team_size": 1,
+      "assigned_resources": [
+        "Mid-level Test Automation Specialist 1"
+      ],
+      "required_skills": [
+        "Automation",
+        "Test Planning",
+        "Jest"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Test Cases",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00062",
+      "name": "Optimize typical integration",
+      "description": "Develop quality assurance processes and documentation including comprehensive testing for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 8424.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "medium",
+      "domain": "healthcare",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead Test Automation Specialist 1",
+        "Junior QA Engineer 2"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Design system approval"
+      ],
+      "deliverables": [
+        "Automated Test Suite",
+        "Quality Metrics",
+        "Test Reports",
+        "Bug Reports",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00063",
+      "name": "Implement typical wireframe",
+      "description": "Create interactive user experience following design system guidelines including comprehensive testing for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 2346.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "medium",
+      "domain": "education",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Frontend Developer 1",
+        "Senior UI/UX Designer 2"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Database schema setup",
+        "Code review completion"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "UI Components",
+        "Design Mockups",
+        "Technical Documentation",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00064",
+      "name": "Design complex endpoint",
+      "description": "Develop robust API endpoints with comprehensive validation with advanced features for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 16.0,
+      "cost": 39245.0,
+      "priority": "low",
+      "task_type": "backend",
+      "subcategory": "api_development",
+      "complexity_level": "complex",
+      "domain": "healthcare",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior Solutions Architect 1",
+        "Junior Solutions Architect 2",
+        "Lead DevOps Engineer 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "API Documentation",
+        "Performance Benchmarks",
+        "Integration Tests",
+        "Service Implementation",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00065",
+      "name": "Deploy simple bundle",
+      "description": "Develop responsive user interface components with modern frameworks with proper error handling for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4801.0,
+      "priority": "medium",
+      "task_type": "frontend",
+      "subcategory": "optimization",
+      "complexity_level": "trivial",
+      "domain": "education",
+      "team_size": 1,
+      "assigned_resources": [
+        "Lead UI/UX Designer 1"
+      ],
+      "required_skills": [
+        "JavaScript",
+        "CSS",
+        "TypeScript"
+      ],
+      "dependencies": [
+        "Database schema setup"
+      ],
+      "deliverables": [
+        "Design Mockups",
+        "Responsive Layout",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00066",
+      "name": "Optimize regular analytics",
+      "description": "Build data processing pipeline with validation and monitoring including comprehensive testing for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 12.0,
+      "cost": 20293.0,
+      "priority": "critical",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "medium",
+      "domain": "fintech",
+      "team_size": 3,
+      "assigned_resources": [
+        "Junior Data Scientist 1",
+        "Mid-level ML Engineer 2",
+        "Lead ML Engineer 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "SQL",
+        "ETL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Documentation",
+        "Data Pipeline",
+        "Analytics Dashboard",
+        "Technical Documentation",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00067",
+      "name": "Deploy enterprise-grade stress",
+      "description": "Implement automated testing suite with coverage reporting meeting strict compliance standards for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 19.0,
+      "cost": 26806.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "very_complex",
+      "domain": "fintech",
+      "team_size": 4,
+      "assigned_resources": [
+        "Senior QA Engineer 1",
+        "Junior QA Engineer 2",
+        "Mid-level Test Automation Specialist 3",
+        "Senior Test Automation Specialist 4"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Compliance review",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Quality Metrics",
+        "Test Cases",
+        "Bug Reports",
+        "Test Reports",
+        "Automated Test Suite",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00068",
+      "name": "Refactor trivial integration",
+      "description": "Implement automated testing suite with coverage reporting with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 2.0,
+      "cost": 2367.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "trivial",
+      "domain": "enterprise",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior QA Engineer 1"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Test Planning",
+        "Jest"
+      ],
+      "dependencies": [
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Test Reports",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00069",
+      "name": "Implement Moderate Widget",
+      "description": "Develop responsive user interface components with modern frameworks with proper error handling for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 6.0,
+      "cost": 10531.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "medium",
+      "domain": "education",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead Frontend Architect 1",
+        "Senior Frontend Developer 2",
+        "Junior UI/UX Designer 3"
+      ],
+      "required_skills": [
+        "HTML",
+        "TypeScript",
+        "CSS",
+        "React"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Third-party API integration",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Design Mockups",
+        "Responsive Layout",
+        "User Interface Documentation",
+        "Technical Documentation",
+        "Code Review Report",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00070",
+      "name": "Develop Authorization For Wallet",
+      "description": "Implement data processing logic with security best practices with standard practices for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 15.0,
+      "cost": 36914.0,
+      "priority": "urgent",
+      "task_type": "backend",
+      "subcategory": "security",
+      "complexity_level": "simple",
+      "domain": "fintech",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior DevOps Engineer 1",
+        "Mid-level DevOps Engineer 2"
+      ],
+      "required_skills": [
+        "API Design",
+        "Python",
+        "Microservices"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "Performance Benchmarks",
+        "Database Schema",
+        "API Documentation",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00071",
+      "name": "Standard Mockup Design",
+      "description": "Develop responsive user interface components with modern frameworks including comprehensive testing for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 13840.0,
+      "priority": "critical",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "medium",
+      "domain": "healthcare",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior Frontend Developer 1",
+        "Lead UI/UX Designer 2",
+        "Lead Frontend Architect 3"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Authentication system",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Responsive Layout",
+        "UI Components",
+        "User Interface Documentation",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00072",
+      "name": "Refactor regular docker",
+      "description": "Configure automated deployment pipeline with monitoring including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 14.0,
+      "cost": 30159.0,
+      "priority": "low",
+      "task_type": "devops",
+      "subcategory": "infrastructure",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior Security Engineer 1",
+        "Mid-level DevOps Engineer 2",
+        "Junior Infrastructure Specialist 3"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Deployment Scripts",
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00073",
+      "name": "Standard Encryption Develop",
+      "description": "Develop robust API endpoints with comprehensive validation with proper error handling for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 10.0,
+      "cost": 5772.0,
+      "priority": "high",
+      "task_type": "backend",
+      "subcategory": "security",
+      "complexity_level": "medium",
+      "domain": "startup",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead DevOps Engineer 1",
+        "Lead Backend Developer 2",
+        "Junior Backend Developer 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Service Implementation",
+        "Integration Tests",
+        "Database Schema",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00074",
+      "name": "Setup simple sync",
+      "description": "Implement data processing logic with security best practices with proper error handling for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 4825.0,
+      "priority": "critical",
+      "task_type": "backend",
+      "subcategory": "integration",
+      "complexity_level": "trivial",
+      "domain": "fintech",
+      "team_size": 1,
+      "assigned_resources": [
+        "Lead DevOps Engineer 1"
+      ],
+      "required_skills": [
+        "API Design",
+        "Python",
+        "Java",
+        "SQL"
+      ],
+      "dependencies": [
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Integration Tests",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00075",
+      "name": "Build moderate ai",
+      "description": "Design machine learning model with performance tracking with proper error handling for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 11.0,
+      "cost": 14822.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "ml_ai",
+      "complexity_level": "medium",
+      "domain": "education",
+      "team_size": 3,
+      "assigned_resources": [
+        "Senior Data Engineer 1",
+        "Senior ML Engineer 2",
+        "Junior Analytics Specialist 3"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Data Models",
+        "Documentation",
+        "Analytics Dashboard",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00076",
+      "name": "Design challenging integration",
+      "description": "Develop robust API endpoints with comprehensive validation ensuring high performance and scalability for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 18.0,
+      "cost": 17323.0,
+      "priority": "low",
+      "task_type": "backend",
+      "subcategory": "integration",
+      "complexity_level": "complex",
+      "domain": "education",
+      "team_size": 4,
+      "assigned_resources": [
+        "Junior DevOps Engineer 1",
+        "Senior Database Specialist 2",
+        "Mid-level Solutions Architect 3",
+        "Junior Database Specialist 4"
+      ],
+      "required_skills": [
+        "Python",
+        "Java",
+        "SQL",
+        "Microservices",
+        "API Design"
+      ],
+      "dependencies": [
+        "Infrastructure provisioning",
+        "Code review completion",
+        "Database schema setup"
+      ],
+      "deliverables": [
+        "API Documentation",
+        "Integration Tests",
+        "Performance Benchmarks",
+        "Database Schema",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00077",
+      "name": "Setup standard design system",
+      "description": "Implement client-side functionality with performance optimization with standard practices for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 2.0,
+      "cost": 3686.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "simple",
+      "domain": "healthcare",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior Frontend Developer 1",
+        "Mid-level UI/UX Designer 2"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Accessibility Report",
+        "UI Components",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00078",
+      "name": "Create Standard Integration System",
+      "description": "Implement CI/CD workflows with quality gates following established patterns for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 11471.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "infrastructure",
+      "complexity_level": "simple",
+      "domain": "fintech",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Security Engineer 1",
+        "Senior Infrastructure Specialist 2"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00079",
+      "name": "Standard Metrics Implement",
+      "description": "Set up infrastructure as code with scalability considerations with standard practices for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4844.0,
+      "priority": "high",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "simple",
+      "domain": "ecommerce",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Security Engineer 1",
+        "Junior Infrastructure Specialist 2"
+      ],
+      "required_skills": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "CI/CD"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Monitoring Setup",
+        "Infrastructure as Code",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00080",
+      "name": "Implement Simple Alerting",
+      "description": "Implement CI/CD workflows with quality gates following established patterns for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 4803.0,
+      "priority": "high",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "simple",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior DevOps Engineer 1",
+        "Lead Security Engineer 2"
+      ],
+      "required_skills": [
+        "AWS",
+        "Kubernetes",
+        "CI/CD"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "CI/CD Pipeline",
+        "Monitoring Setup",
+        "Technical Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00081",
+      "name": "Cutting-Edge Deployment Configure",
+      "description": "Implement CI/CD workflows with quality gates with cutting-edge technology for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 12.0,
+      "cost": 15213.0,
+      "priority": "low",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "extreme",
+      "domain": "startup",
+      "team_size": 5,
+      "assigned_resources": [
+        "Senior Security Engineer 1",
+        "Mid-level DevOps Engineer 2",
+        "Lead Security Engineer 3",
+        "Senior Infrastructure Specialist 4",
+        "Mid-level Infrastructure Specialist 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Database schema setup",
+        "Infrastructure provisioning",
+        "Authentication system",
+        "Design system approval",
+        "Code review completion",
+        "Security audit completion",
+        "Third-party API integration",
+        "User acceptance testing",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Monitoring Setup",
+        "Deployment Scripts",
+        "Infrastructure as Code",
+        "Security Configuration",
+        "CI/CD Pipeline",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.9,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00082",
+      "name": "Customize moderate interface",
+      "description": "Develop responsive user interface components with modern frameworks including comprehensive testing for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 16837.0,
+      "priority": "low",
+      "task_type": "frontend",
+      "subcategory": "ui_design",
+      "complexity_level": "medium",
+      "domain": "enterprise",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead Frontend Developer 1",
+        "Junior UI/UX Designer 2"
+      ],
+      "required_skills": [
+        "HTML",
+        "TypeScript",
+        "JavaScript",
+        "React"
+      ],
+      "dependencies": [
+        "User acceptance testing",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Responsive Layout",
+        "UI Components",
+        "Accessibility Report",
+        "Code Review Report",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00083",
+      "name": "Create trivial microservice",
+      "description": "Implement data processing logic with security best practices with proper error handling for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 5129.0,
+      "priority": "low",
+      "task_type": "backend",
+      "subcategory": "api_development",
+      "complexity_level": "trivial",
+      "domain": "healthcare",
+      "team_size": 1,
+      "assigned_resources": [
+        "Senior Solutions Architect 1"
+      ],
+      "required_skills": [
+        "Python",
+        "Java"
+      ],
+      "dependencies": [],
+      "deliverables": [
+        "Service Implementation",
+        "Performance Benchmarks",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.625106",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00084",
+      "name": "Deploy typical angular",
+      "description": "Create interactive user experience following design system guidelines including comprehensive testing for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 7.0,
+      "cost": 13837.0,
+      "priority": "critical",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "medium",
+      "domain": "ecommerce",
+      "team_size": 3,
+      "assigned_resources": [
+        "Lead Frontend Architect 1",
+        "Junior Frontend Developer 2",
+        "Lead Frontend Developer 3"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Third-party API integration",
+        "Compliance review",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "User Interface Documentation",
+        "Accessibility Report",
+        "UI Components",
+        "Code Review Report",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00085",
+      "name": "Deploy Banking Prediction",
+      "description": "Design machine learning model with performance tracking with proper error handling for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 24.0,
+      "cost": 22096.0,
+      "priority": "critical",
+      "task_type": "data",
+      "subcategory": "ml_ai",
+      "complexity_level": "medium",
+      "domain": "fintech",
+      "team_size": 2,
+      "assigned_resources": [
+        "Lead Analytics Specialist 1",
+        "Senior Data Scientist 2"
+      ],
+      "required_skills": [
+        "Machine Learning",
+        "Python",
+        "ETL",
+        "Analytics"
+      ],
+      "dependencies": [
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Performance Metrics",
+        "Analytics Dashboard",
+        "Data Pipeline",
+        "Documentation"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00086",
+      "name": "Implement highly complex automation",
+      "description": "Set up infrastructure as code with scalability considerations with enterprise-grade requirements for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 13.0,
+      "cost": 19850.0,
+      "priority": "low",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "very_complex",
+      "domain": "ecommerce",
+      "team_size": 5,
+      "assigned_resources": [
+        "Senior Infrastructure Specialist 1",
+        "Senior Security Engineer 2",
+        "Lead DevOps Engineer 3",
+        "Senior Infrastructure Specialist 4",
+        "Junior DevOps Engineer 5"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Infrastructure provisioning",
+        "User acceptance testing",
+        "Database schema setup",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "CI/CD Pipeline",
+        "Infrastructure as Code",
+        "Monitoring Setup",
+        "Security Configuration",
+        "Deployment Scripts",
+        "Technical Documentation",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00087",
+      "name": "Build Performance With Authentication Support",
+      "description": "Develop responsive user interface components with modern frameworks with enterprise-grade requirements for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 32.0,
+      "cost": 45198.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "optimization",
+      "complexity_level": "very_complex",
+      "domain": "education",
+      "team_size": 4,
+      "assigned_resources": [
+        "Junior UI/UX Designer 1",
+        "Lead Frontend Architect 2",
+        "Senior UI/UX Designer 3",
+        "Senior Frontend Architect 4"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "Design system approval",
+        "Third-party API integration",
+        "User acceptance testing",
+        "Performance baseline establishment",
+        "Authentication system",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "UI Components",
+        "Responsive Layout",
+        "User Interface Documentation",
+        "Design Mockups",
+        "Accessibility Report",
+        "Technical Documentation",
+        "Code Review Report",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00088",
+      "name": "Implement moderate testing",
+      "description": "Design comprehensive testing strategy covering edge cases including comprehensive testing for medical records system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 6513.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "unit_testing",
+      "complexity_level": "medium",
+      "domain": "healthcare",
+      "team_size": 2,
+      "assigned_resources": [
+        "Senior Test Automation Specialist 1",
+        "Lead QA Engineer 2"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Jest",
+        "Pytest"
+      ],
+      "dependencies": [
+        "Design system approval",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Test Cases",
+        "Test Reports",
+        "Bug Reports",
+        "Technical Documentation",
+        "Code Review Report",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 1.7
+      }
+    },
+    {
+      "id": "synthetic_task_00089",
+      "name": "Integrate enterprise-grade alerting",
+      "description": "Implement CI/CD workflows with quality gates meeting strict compliance standards for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 16.0,
+      "cost": 19607.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "very_complex",
+      "domain": "fintech",
+      "team_size": 6,
+      "assigned_resources": [
+        "Senior DevOps Engineer 1",
+        "Mid-level Infrastructure Specialist 2",
+        "Junior Security Engineer 3",
+        "Junior Security Engineer 4",
+        "Junior Infrastructure Specialist 5",
+        "Senior Infrastructure Specialist 6"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "Authentication system",
+        "Design system approval",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "CI/CD Pipeline",
+        "Monitoring Setup",
+        "Technical Documentation",
+        "Code Review Report"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00090",
+      "name": "Customize standard deployment",
+      "description": "Implement CI/CD workflows with quality gates with standard practices for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 5249.0,
+      "priority": "medium",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "simple",
+      "domain": "fintech",
+      "team_size": 1,
+      "assigned_resources": [
+        "Mid-level Security Engineer 1"
+      ],
+      "required_skills": [
+        "AWS",
+        "Kubernetes",
+        "Docker"
+      ],
+      "dependencies": [
+        "Performance baseline establishment",
+        "Authentication system"
+      ],
+      "deliverables": [
+        "Deployment Scripts",
+        "CI/CD Pipeline",
+        "Technical Documentation"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.6
+      }
+    },
+    {
+      "id": "synthetic_task_00091",
+      "name": "Optimize enterprise-grade alerting",
+      "description": "Implement CI/CD workflows with quality gates with enterprise-grade requirements for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 9.0,
+      "cost": 15755.0,
+      "priority": "high",
+      "task_type": "devops",
+      "subcategory": "monitoring",
+      "complexity_level": "very_complex",
+      "domain": "ecommerce",
+      "team_size": 6,
+      "assigned_resources": [
+        "Junior Security Engineer 1",
+        "Senior Security Engineer 2",
+        "Lead Infrastructure Specialist 3",
+        "Mid-level DevOps Engineer 4",
+        "Senior Security Engineer 5",
+        "Junior DevOps Engineer 6"
+      ],
+      "required_skills": [
+        "Docker",
+        "Terraform",
+        "CI/CD",
+        "Kubernetes",
+        "AWS"
+      ],
+      "dependencies": [
+        "User acceptance testing",
+        "Authentication system",
+        "Security audit completion",
+        "Code review completion",
+        "Design system approval",
+        "Third-party API integration",
+        "Performance baseline establishment"
+      ],
+      "deliverables": [
+        "Security Configuration",
+        "Infrastructure as Code",
+        "Deployment Scripts",
+        "Monitoring Setup",
+        "CI/CD Pipeline",
+        "Technical Documentation",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.7,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00092",
+      "name": "Build Etl With Monitoring Support",
+      "description": "Build data processing pipeline with validation and monitoring with standard practices for learning management platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 4464.0,
+      "priority": "critical",
+      "task_type": "data",
+      "subcategory": "data_processing",
+      "complexity_level": "simple",
+      "domain": "education",
+      "team_size": 1,
+      "assigned_resources": [
+        "Mid-level ML Engineer 1"
+      ],
+      "required_skills": [
+        "Machine Learning",
+        "Analytics",
+        "ETL"
+      ],
+      "dependencies": [
+        "Security audit completion",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Data Models",
+        "Performance Metrics",
+        "Data Pipeline",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.0
+      }
+    },
+    {
+      "id": "synthetic_task_00093",
+      "name": "Develop Automation For Reporting",
+      "description": "Implement automated testing suite with coverage reporting with proper error handling for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 7682.0,
+      "priority": "high",
+      "task_type": "testing",
+      "subcategory": "integration_testing",
+      "complexity_level": "trivial",
+      "domain": "enterprise",
+      "team_size": 1,
+      "assigned_resources": [
+        "Senior Quality Analyst 1"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Test Planning",
+        "Pytest"
+      ],
+      "dependencies": [
+        "Code review completion"
+      ],
+      "deliverables": [
+        "Test Cases",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.1,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00094",
+      "name": "Create Straightforward Analytics System",
+      "description": "Implement data processing logic with security best practices with standard practices for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 3.0,
+      "cost": 3882.0,
+      "priority": "critical",
+      "task_type": "backend",
+      "subcategory": "integration",
+      "complexity_level": "simple",
+      "domain": "startup",
+      "team_size": 1,
+      "assigned_resources": [
+        "Lead DevOps Engineer 1"
+      ],
+      "required_skills": [
+        "Java",
+        "Microservices"
+      ],
+      "dependencies": [
+        "Compliance review",
+        "Design system approval"
+      ],
+      "deliverables": [
+        "Database Schema",
+        "Integration Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00095",
+      "name": "Modernize challenging analytics",
+      "description": "Design machine learning model with performance tracking with advanced features for corporate workflow system. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 8.0,
+      "cost": 11763.0,
+      "priority": "medium",
+      "task_type": "data",
+      "subcategory": "analytics",
+      "complexity_level": "complex",
+      "domain": "enterprise",
+      "team_size": 4,
+      "assigned_resources": [
+        "Senior Data Engineer 1",
+        "Senior ML Engineer 2",
+        "Mid-level Analytics Specialist 3",
+        "Senior Data Scientist 4"
+      ],
+      "required_skills": [
+        "Python",
+        "Analytics",
+        "ETL",
+        "SQL",
+        "Machine Learning"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Authentication system",
+        "Infrastructure provisioning",
+        "Compliance review"
+      ],
+      "deliverables": [
+        "Data Pipeline",
+        "Performance Metrics",
+        "Data Models",
+        "Analytics Dashboard",
+        "Documentation",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.8
+      }
+    },
+    {
+      "id": "synthetic_task_00096",
+      "name": "Design complex widget",
+      "description": "Implement client-side functionality with performance optimization with advanced features for online retail platform. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 10.0,
+      "cost": 18325.0,
+      "priority": "high",
+      "task_type": "frontend",
+      "subcategory": "component_dev",
+      "complexity_level": "complex",
+      "domain": "ecommerce",
+      "team_size": 5,
+      "assigned_resources": [
+        "Senior Frontend Developer 1",
+        "Lead Frontend Developer 2",
+        "Mid-level Frontend Architect 3",
+        "Lead Frontend Architect 4",
+        "Mid-level Frontend Developer 5"
+      ],
+      "required_skills": [
+        "React",
+        "HTML",
+        "CSS",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Authentication system",
+        "Third-party API integration"
+      ],
+      "deliverables": [
+        "Accessibility Report",
+        "UI Components",
+        "Responsive Layout",
+        "User Interface Documentation",
+        "Design Mockups",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 1.2
+      }
+    },
+    {
+      "id": "synthetic_task_00097",
+      "name": "Create Complex Integration System",
+      "description": "Develop quality assurance processes and documentation with advanced features for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 6.0,
+      "cost": 3670.0,
+      "priority": "low",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "complex",
+      "domain": "startup",
+      "team_size": 4,
+      "assigned_resources": [
+        "Lead QA Engineer 1",
+        "Senior QA Engineer 2",
+        "Junior Test Automation Specialist 3",
+        "Junior QA Engineer 4"
+      ],
+      "required_skills": [
+        "Test Planning",
+        "Jest",
+        "Pytest",
+        "Selenium",
+        "Automation"
+      ],
+      "dependencies": [
+        "Code review completion",
+        "Design system approval",
+        "Security audit completion",
+        "User acceptance testing",
+        "Infrastructure provisioning"
+      ],
+      "deliverables": [
+        "Quality Metrics",
+        "Bug Reports",
+        "Test Cases",
+        "Automated Test Suite",
+        "Unit Tests"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.5,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00098",
+      "name": "Build regular benchmark",
+      "description": "Develop quality assurance processes and documentation with proper error handling for MVP development. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 5.0,
+      "cost": 2344.0,
+      "priority": "medium",
+      "task_type": "testing",
+      "subcategory": "performance_testing",
+      "complexity_level": "medium",
+      "domain": "startup",
+      "team_size": 2,
+      "assigned_resources": [
+        "Junior QA Engineer 1",
+        "Junior Test Automation Specialist 2"
+      ],
+      "required_skills": [
+        "Selenium",
+        "Automation",
+        "Test Planning",
+        "Pytest"
+      ],
+      "dependencies": [
+        "Database schema setup",
+        "Performance baseline establishment",
+        "User acceptance testing"
+      ],
+      "deliverables": [
+        "Bug Reports",
+        "Test Cases",
+        "Quality Metrics",
+        "Automated Test Suite",
+        "Unit Tests",
+        "Deployment Guide"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.3,
+        "domain_multiplier": 0.8
+      }
+    },
+    {
+      "id": "synthetic_task_00099",
+      "name": "Optimize basic deployment",
+      "description": "Implement CI/CD workflows with quality gates following established patterns for financial services application. Includes proper documentation, testing, and deployment considerations.",
+      "duration": 4.0,
+      "cost": 8272.0,
+      "priority": "high",
+      "task_type": "devops",
+      "subcategory": "deployment",
+      "complexity_level": "simple",
+      "domain": "fintech",
+      "team_size": 1,
+      "assigned_resources": [
+        "Junior Security Engineer 1"
+      ],
+      "required_skills": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "Docker"
+      ],
+      "dependencies": [
+        "User acceptance testing",
+        "Design system approval"
+      ],
+      "deliverables": [
+        "Monitoring Setup",
+        "Infrastructure as Code",
+        "Security Configuration",
+        "Technical Documentation"
+      ],
+      "metadata": {
+        "generated_at": "2025-08-26T16:44:40.626106",
+        "is_synthetic": true,
+        "complexity_score": 0.2,
+        "domain_multiplier": 1.6
+      }
+    }
+  ]
+}

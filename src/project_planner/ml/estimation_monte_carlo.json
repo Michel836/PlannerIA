@@ -1,0 +1,180 @@
+{
+  "project_name": "Développement Module E-commerce",
+  "summary": {
+    "optimistic_duration": 315.39840425106325,
+    "realistic_duration": 356.4749319308028,
+    "pessimistic_duration": 398.9844208725861,
+    "expected_duration": 356.89445873733433,
+    "probability_on_time": 0.0
+  },
+  "tasks": [
+    {
+      "name": "Analyse des besoins",
+      "optimistic": 18.069036880020228,
+      "realistic": 24.943812630835204,
+      "pessimistic": 34.38410301394756,
+      "mean_duration": 25.744308195976323,
+      "confidence_50": [
+        21.09691691496753,
+        29.519314143481644
+      ],
+      "confidence_90": [
+        16.503293894975904,
+        37.63564465915506
+      ],
+      "risk_factors": {
+        "team_experience": 1.0,
+        "requirements_clarity": 1.3,
+        "technology_risk": 1.0,
+        "integration_complexity": 1.2
+      }
+    },
+    {
+      "name": "Conception de la base de données",
+      "optimistic": 13.160951798975782,
+      "realistic": 18.07145166444916,
+      "pessimistic": 24.90471842142457,
+      "mean_duration": 18.635276904816266,
+      "confidence_50": [
+        15.254415959989228,
+        21.40956908251479
+      ],
+      "confidence_90": [
+        12.037668858097238,
+        27.321807695252385
+      ],
+      "risk_factors": {
+        "team_experience": 1.0,
+        "requirements_clarity": 1.0,
+        "technology_risk": 1.0,
+        "integration_complexity": 1.5
+      }
+    },
+    {
+      "name": "Développement API produits",
+      "optimistic": 40.46389333574229,
+      "realistic": 63.23221249696422,
+      "pessimistic": 98.49118085547086,
+      "mean_duration": 66.99845720759652,
+      "confidence_50": [
+        49.58952279315732,
+        79.93364450214388
+      ],
+      "confidence_90": [
+        35.97744689640281,
+        112.26500555241863
+      ],
+      "risk_factors": {
+        "team_experience": 1.2,
+        "requirements_clarity": 1.0,
+        "technology_risk": 1.1,
+        "integration_complexity": 1.5
+      }
+    },
+    {
+      "name": "Interface utilisateur panier",
+      "optimistic": 16.499437767333202,
+      "realistic": 25.82598320135355,
+      "pessimistic": 40.5848610175697,
+      "mean_duration": 27.4983797209671,
+      "confidence_50": [
+        20.32599021439011,
+        32.873784945757876
+      ],
+      "confidence_90": [
+        14.545927307094098,
+        45.726877787374434
+      ],
+      "risk_factors": {
+        "team_experience": 1.0,
+        "requirements_clarity": 0.9,
+        "technology_risk": 1.0,
+        "integration_complexity": 1.2
+      }
+    },
+    {
+      "name": "Système de paiement",
+      "optimistic": 96.34345605420293,
+      "realistic": 161.89795977692873,
+      "pessimistic": 268.45207496459903,
+      "mean_duration": 175.09014062209766,
+      "confidence_50": [
+        123.6574058313302,
+        212.01901610011538
+      ],
+      "confidence_90": [
+        83.22819309225399,
+        313.1270961137145
+      ],
+      "risk_factors": {
+        "team_experience": 1.2,
+        "requirements_clarity": 1.6,
+        "technology_risk": 1.5,
+        "integration_complexity": 2.0
+      }
+    },
+    {
+      "name": "Tests unitaires et intégration",
+      "optimistic": 20.37101297729775,
+      "realistic": 30.07410706490042,
+      "pessimistic": 44.080236141719844,
+      "mean_duration": 31.41976682161718,
+      "confidence_50": [
+        24.486457203509197,
+        36.90868977457478
+      ],
+      "confidence_90": [
+        18.175114295308287,
+        49.22949069316406
+      ],
+      "risk_factors": {
+        "team_experience": 1.0,
+        "requirements_clarity": 1.0,
+        "technology_risk": 1.0,
+        "integration_complexity": 1.5
+      }
+    },
+    {
+      "name": "Déploiement et documentation",
+      "optimistic": 6.044272159562776,
+      "realistic": 7.808112939685188,
+      "pessimistic": 10.0543456153159,
+      "mean_duration": 7.9488207778542534,
+      "confidence_50": [
+        6.800188047285249,
+        8.909095254535169
+      ],
+      "confidence_90": [
+        5.624223822812512,
+        10.775909074625263
+      ],
+      "risk_factors": {
+        "team_experience": 0.9,
+        "requirements_clarity": 0.9,
+        "technology_risk": 1.0,
+        "integration_complexity": 1.2
+      }
+    }
+  ],
+  "risk_assessment": {
+    "overall_risk_score": 9.208481267912727,
+    "schedule_volatility": 0.09208481267912727,
+    "risk_concentration": 0.14285714285714285,
+    "probability_major_overrun": 0.0,
+    "high_risk_tasks_count": 1
+  },
+  "budget_simulation": {
+    "optimistic_budget": 15821.404572985122,
+    "realistic_budget": 24889.02298313374,
+    "pessimistic_budget": 39071.36400225356,
+    "expected_budget": 26500.1362688194,
+    "budget_std_dev": 5634.834266454084,
+    "prob_over_realistic": 0.831
+  },
+  "recommendations": [
+    "Risque budgétaire: 83% de chance de dépassement. Prévoir une marge de sécurité de 20-30%.",
+    "Faible probabilité de respecter les délais. Réviser le planning ou réduire le périmètre.",
+    "Tâches à forte incertitude: Système de paiement. Prévoir des prototypes ou spike solutions."
+  ],
+  "export_date": "2025-08-28T08:07:00.264979"
+}

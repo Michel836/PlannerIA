@@ -1,0 +1,120 @@
+{
+  "projects": {
+    "proj_1756478794400_0": {
+      "id": "proj_1756478794400_0",
+      "name": "NeoBank - Super App Financière",
+      "description": "\n        Application bancaire nouvelle génération avec IA intégrée :\n        - Gestion multi-comptes intelligente avec catégorisation automatique\n        - Assistant IA personnel pour conseils financiers\n        - Trading social avec copy trading et insights communautaires  \n        - Paiements instantanés avec QR codes et NFC\n        - Crédit scoring en temps réel avec ML avancé\n        - Interface conversationnelle pour toutes les opérations\n        - Sécurité biométrique multi-facteurs\n        \n        Cible : 100K utilisateurs la première année\n        Révolutionnaire dans le secteur bancaire français\n        ",
+      "status": "in_progress",
+      "priority": "critical",
+      "template": "mobile_application",
+      "budget": 1105000.0,
+      "team_size": 12,
+      "progress": 65.0,
+      "health_score": 85.0,
+      "domain": "fintech",
+      "start_date": "2025-08-29T16:46:34.400825",
+      "end_date": "2026-01-27T16:46:34.400825"
+    },
+    "proj_1756478794400_1": {
+      "id": "proj_1756478794400_1",
+      "name": "EduGenius - Plateforme d'apprentissage adaptatif",
+      "description": "\n        Plateforme e-learning révolutionnaire avec IA générative :\n        - Parcours personnalisés adaptatifs basés sur le profil apprenant\n        - Génération automatique de contenu avec GPT-4\n        - Évaluation intelligente avec feedback personnalisé\n        - Réalité virtuelle pour formations immersives\n        - Chatbot tuteur disponible 24/7\n        - Analytics avancés pour les formateurs\n        - Gamification avec achievements et classements\n        \n        Secteur : Formation professionnelle et universitaire\n        Innovation majeure dans l'EdTech française\n        ",
+      "status": "in_progress",
+      "priority": "high",
+      "template": "web_application",
+      "budget": 420000.0,
+      "team_size": 8,
+      "progress": 45.0,
+      "health_score": 92.0,
+      "domain": "education",
+      "start_date": "2025-08-29T16:46:34.400825",
+      "end_date": "2025-12-02T16:46:34.400825"
+    },
+    "proj_1756478794400_2": {
+      "id": "proj_1756478794400_2",
+      "name": "CityBrain - Intelligence Urbaine",
+      "description": "\n        Solution IA complète pour la gestion intelligente des villes :\n        - Optimisation du trafic en temps réel avec IoT\n        - Prédiction et gestion des déchets urbains\n        - Monitoring environnemental (air, bruit, énergie)\n        - Détection prédictive des incidents urbains\n        - Dashboard unifié pour les décideurs municipaux\n        - API publique pour développeurs tiers\n        - Intégration avec systèmes existants des mairies\n        \n        Impact : 500K+ citoyens bénéficiaires\n        Projet pilote pour 3 métropoles françaises\n        ",
+      "status": "in_progress",
+      "priority": "high",
+      "template": "ai_project",
+      "budget": 1020000.0,
+      "team_size": 6,
+      "progress": 30.0,
+      "health_score": 78.0,
+      "domain": "ai",
+      "start_date": "2025-08-29T16:46:34.400825",
+      "end_date": "2026-01-06T16:46:34.400825"
+    },
+    "proj_1756478794400_3": {
+      "id": "proj_1756478794400_3",
+      "name": "TradeConnect - Marketplace B2B Intelligent",
+      "description": "\n        Marketplace nouvelle génération pour le commerce B2B :\n        - Matching intelligent fournisseurs-acheteurs avec IA\n        - Négociation automatisée de prix avec algorithmes\n        - Supply chain transparente avec blockchain\n        - Prédiction de demande et optimisation stocks\n        - Paiements sécurisés avec escrow intelligent\n        - Analytics avancés pour optimisation commerciale\n        - Intégration ERP/CRM native\n        \n        Secteur : Commerce inter-entreprises\n        Disruption du marché B2B traditionnel\n        ",
+      "status": "in_progress",
+      "priority": "medium",
+      "template": "web_application",
+      "budget": 550000.0,
+      "team_size": 10,
+      "progress": 80.0,
+      "health_score": 88.0,
+      "domain": "web",
+      "start_date": "2025-08-29T16:46:34.400825",
+      "end_date": "2025-10-01T16:46:34.400825"
+    },
+    "proj_1756478794400_4": {
+      "id": "proj_1756478794400_4",
+      "name": "Campaign360 - Marketing IA Omnicanal",
+      "description": "\n        Campagne marketing révolutionnaire multi-plateformes :\n        - Personnalisation en temps réel basée sur comportement\n        - Création automatique de contenu avec IA générative\n        - Attribution marketing cross-device avancée\n        - A/B testing automatique et optimisation continue\n        - Prédiction de lifetime value client\n        - Intégration native réseaux sociaux et programmatique\n        - ROI tracking granulaire et real-time\n        \n        Objectif : +300% ROI vs campagnes traditionnelles\n        Innovation dans le marketing digital\n        ",
+      "status": "in_progress",
+      "priority": "medium",
+      "template": "marketing_campaign",
+      "budget": 144000.0,
+      "team_size": 7,
+      "progress": 90.0,
+      "health_score": 95.0,
+      "domain": "marketing",
+      "start_date": "2025-08-29T16:46:34.400825",
+      "end_date": "2025-10-10T16:46:34.400825"
+    },
+    "proj_1756478794400_5": {
+      "id": "proj_1756478794400_5",
+      "name": "CloudForge - Infrastructure Auto-Scalable",
+      "description": "\n        Infrastructure cloud révolutionnaire auto-optimisée :\n        - Auto-scaling intelligent basé sur prédictions ML\n        - Orchestration multi-cloud avec optimisation coûts\n        - Monitoring prédictif avec auto-healing\n        - CI/CD pipeline avec tests automatisés IA\n        - Sécurité zero-trust avec détection d'anomalies\n        - Disaster recovery automatique cross-regions\n        - Carbon footprint optimization\n        \n        Impact : -60% coûts infrastructure, +99.99% uptime\n        Révolution dans l'approche DevOps\n        ",
+      "status": "in_progress",
+      "priority": "high",
+      "template": "ai_project",
+      "budget": 480000.0,
+      "team_size": 5,
+      "progress": 55.0,
+      "health_score": 82.0,
+      "domain": "ai",
+      "start_date": "2025-08-29T16:46:34.400825",
+      "end_date": "2026-02-10T16:46:34.400825"
+    }
+  },
+  "created_at": "2025-08-29T16:46:34.400825",
+  "purpose": "Soutenance Demo Portfolio",
+  "summary": {
+    "total_projects": 6,
+    "total_investment": 3719000.0,
+    "avg_progress": 60.833333333333336,
+    "team_members": 48,
+    "domains_covered": [
+      "FinTech",
+      "EdTech",
+      "Smart Cities",
+      "B2B Commerce",
+      "Marketing",
+      "Infrastructure"
+    ],
+    "innovation_areas": [
+      "IA Générative",
+      "Machine Learning",
+      "Blockchain",
+      "IoT",
+      "Réalité Virtuelle"
+    ],
+    "projected_roi": "245%",
+    "market_impact": "Disruptive Innovation",
+    "expected_users": "600K+ utilisateurs touchés"
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "run_id": "example-web-app-001",
+  "timestamp": "2025-01-15T14:20:00.000Z",
+  "brief": "Develop a modern web application for task management with user authentication, real-time collaboration, and mobile responsiveness. The application should support teams of up to 50 users with basic reporting features.",
+  "project_overview": {
+    "title": "Task Management Web Application",
+    "description": "A comprehensive task management web application featuring user authentication, real-time collaboration capabilities, and responsive design for modern teams",
+    "objectives": [
+      "Create intuitive task management interface",
+      "Implement secure user authentication system",
+      "Enable real-time collaboration features",
+      "Ensure mobile-responsive design",
+      "Support up to 50 concurrent users",
+      "Provide basic reporting and analytics"
+    ],
+    "success_criteria": [
+      "User registration and login functionality working",
+      "Tasks can be created, updated, and deleted",
+      "Real-time updates across multiple users",
+      "Mobile-friendly interface on all screen sizes",
+      "System handles 50+ concurrent users",
+      "Basic reports accessible to admin users"
+    ],
+    "total_duration": 56.0,
+    "total_cost": 168000.0,
+    "start_date": "2025-02-01",
+    "end_date": "2025-03-29"
+  },
+  "wbs": {
+    "phases": [
+      {
+        "id": "phase_1",
+        "name": "Project Setup & Planning",
+        "description": "Initial project setup, requirements analysis, and technical planning",
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-07",
+        "tasks": [
+          {
+            "id": "task_1_1",
+            "name": "Project Initialization",
+            "description": "Set up project structure, version control, and development environment",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 4800.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["project_manager", "tech_lead"],
+            "deliverables": ["Project repository", "Development environment", "Project charter"]
+          },
+          {
+            "id": "task_1_2",
+            "name": "Requirements Analysis",
+            "description": "Detailed analysis of functional and non-functional requirements",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 7200.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["business_analyst", "ui_designer"],
+            "deliverables": ["Requirements document", "User stories", "Acceptance criteria"]
+          },
+          {
+            "id": "task_1_3",
+            "name": "Technical Architecture",
+            "description": "Design system architecture and select technology stack",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 4800.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["tech_lead"],
+            "deliverables": ["Architecture diagram", "Tech stack selection", "Database design"]
+          }
+        ]
+      },
+      {
+        "id": "phase_2",
+        "name": "Backend Development",
+        "description": "Server-side development including APIs, database, and authentication",
+        "start_date": "2025-02-08",
+        "end_date": "2025-02-28",
+        "tasks": [
+          {
+            "id": "task_2_1",
+            "name": "Database Setup",
+            "description": "Design and implement database schema with proper indexing",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 7200.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["backend_developer"],
+            "deliverables": ["Database schema", "Migration scripts", "Test data"]
+          },
+          {
+            "id": "task_2_2",
+            "name": "Authentication System",
+            "description": "Implement secure user registration, login, and session management",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 9600.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["backend_developer"],
+            "deliverables": ["Auth endpoints", "Password encryption", "Session management"]
+          },
+          {
+            "id": "task_2_3",
+            "name": "Core API Development",
+            "description": "Build REST APIs for task management operations",
+            "duration": 8.0,
+            "duration_unit": "days",
+            "effort": 64.0,
+            "cost": 19200.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["backend_developer", "api_developer"],
+            "deliverables": ["Task CRUD APIs", "User management APIs", "Team APIs"]
+          },
+          {
+            "id": "task_2_4",
+            "name": "Real-time Features",
+            "description": "Implement WebSocket connections for real-time collaboration",
+            "duration": 5.0,
+            "duration_unit": "days",
+            "effort": 40.0,
+            "cost": 12000.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["backend_developer"],
+            "deliverables": ["WebSocket server", "Real-time events", "Connection management"]
+          }
+        ]
+      },
+      {
+        "id": "phase_3",
+        "name": "Frontend Development",
+        "description": "User interface development with responsive design",
+        "start_date": "2025-02-15",
+        "end_date": "2025-03-14",
+        "tasks": [
+          {
+            "id": "task_3_1",
+            "name": "UI Framework Setup",
+            "description": "Set up React application with routing and state management",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 4800.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["frontend_developer"],
+            "deliverables": ["React app", "Routing setup", "State management"]
+          },
+          {
+            "id": "task_3_2",
+            "name": "Authentication UI",
+            "description": "Create login, registration, and user profile interfaces",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 9600.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["frontend_developer", "ui_designer"],
+            "deliverables": ["Login forms", "Registration flow", "Profile pages"]
+          },
+          {
+            "id": "task_3_3",
+            "name": "Task Management Interface",
+            "description": "Build main task management dashboard and forms",
+            "duration": 8.0,
+            "duration_unit": "days",
+            "effort": 64.0,
+            "cost": 19200.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["frontend_developer", "ui_designer"],
+            "deliverables": ["Task dashboard", "Task forms", "Task lists"]
+          },
+          {
+            "id": "task_3_4",
+            "name": "Real-time Integration",
+            "description": "Integrate WebSocket connections for live updates",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 7200.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["frontend_developer"],
+            "deliverables": ["WebSocket client", "Live updates", "Connection status"]
+          },
+          {
+            "id": "task_3_5",
+            "name": "Responsive Design",
+            "description": "Ensure mobile-friendly design across all screen sizes",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 9600.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["frontend_developer", "ui_designer"],
+            "deliverables": ["Mobile layouts", "Responsive CSS", "Cross-device testing"]
+          }
+        ]
+      },
+      {
+        "id": "phase_4",
+        "name": "Testing & Quality Assurance",
+        "description": "Comprehensive testing and bug fixing",
+        "start_date": "2025-03-10",
+        "end_date": "2025-03-21",
+        "tasks": [
+          {
+            "id": "task_4_1",
+            "name": "Unit Testing",
+            "description": "Write and execute unit tests for all components",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 9600.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["qa_engineer"],
+            "deliverables": ["Unit test suites", "Test coverage report", "Automated tests"]
+          },
+          {
+            "id": "task_4_2",
+            "name": "Integration Testing",
+            "description": "Test API integrations and data flow between components",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 7200.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["qa_engineer"],
+            "deliverables": ["Integration tests", "API test suite", "Data validation"]
+          },
+          {
+            "id": "task_4_3",
+            "name": "User Acceptance Testing",
+            "description": "Conduct end-to-end testing with stakeholder feedback",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 7200.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["qa_engineer", "business_analyst"],
+            "deliverables": ["UAT test cases", "User feedback", "Bug reports"]
+          },
+          {
+            "id": "task_4_4",
+            "name": "Performance Testing",
+            "description": "Test system performance under load and optimize",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 4800.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["qa_engineer"],
+            "deliverables": ["Load test results", "Performance benchmarks", "Optimization plan"]
+          }
+        ]
+      },
+      {
+        "id": "phase_5",
+        "name": "Deployment & Launch",
+        "description": "Production deployment and go-live support",
+        "start_date": "2025-03-24",
+        "end_date": "2025-03-29",
+        "tasks": [
+          {
+            "id": "task_5_1",
+            "name": "Production Setup",
+            "description": "Configure production environment and deployment pipeline",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 4800.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["devops_engineer"],
+            "deliverables": ["Production server", "Deployment pipeline", "Monitoring setup"]
+          },
+          {
+            "id": "task_5_2",
+            "name": "Data Migration",
+            "description": "Migrate any existing data and configure initial settings",
+            "duration": 1.0,
+            "duration_unit": "days",
+            "effort": 8.0,
+            "cost": 2400.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["backend_developer"],
+            "deliverables": ["Migration scripts", "Initial data", "Configuration"]
+          },
+          {
+            "id": "task_5_3",
+            "name": "Go-Live Support",
+            "description": "Monitor launch and provide immediate support",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 4800.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["project_manager", "tech_lead"],
+            "deliverables": ["Launch monitoring", "Support documentation", "Issue resolution"]
+          }
+        ]
+      }
+    ]
+  },
+  "tasks": [],
+  "dependencies": [
+    {
+      "predecessor": "task_1_1",
+      "successor": "task_1_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_1_2",
+      "successor": "task_1_3",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_1_3",
+      "successor": "task_2_1",
+      "type": "finish_to_start",
+      "lag": 1
+    },
+    {
+      "predecessor": "task_2_1",
+      "successor": "task_2_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_2",
+      "successor": "task_2_3",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_3",
+      "successor": "task_2_4",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_1",
+      "successor": "task_3_1",
+      "type": "finish_to_start",
+      "lag": 5
+    },
+    {
+      "predecessor": "task_3_1",
+      "successor": "task_3_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_3_2",
+      "successor": "task_3_3",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_3_3",
+      "successor": "task_3_4",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_3_4",
+      "successor": "task_3_5",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_4",
+      "successor": "task_3_4",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_3_5",
+      "successor": "task_4_1",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_4_1",
+      "successor": "task_4_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_4_2",
+      "successor": "task_4_3",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_4_3",
+      "successor": "task_5_1",
+      "type": "finish_to_start",
+      "lag": 1
+    },
+    {
+      "predecessor": "task_5_1",
+      "successor": "task_5_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_5_2",
+      "successor": "task_5_3",
+      "type": "finish_to_start",
+      "lag": 0
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk_001",
+      "name": "Technology Stack Learning Curve",
+      "description": "Team may need time to learn new frameworks or technologies",
+      "category": "technical",
+      "probability": 3,
+      "impact": 2,
+      "risk_score": 6,
+      "mitigation_strategy": "Provide training time, choose familiar technologies where possible",
+      "contingency_plan": "Allocate additional development time, bring in external expertise",
+      "owner": "tech_lead",
+      "status": "identified"
+    },
+    {
+      "id": "risk_002",
+      "name": "Real-time Feature Complexity",
+      "description": "WebSocket implementation may be more complex than anticipated",
+      "category": "technical",
+      "probability": 4,
+      "impact": 3,
+      "risk_score": 12,
+      "mitigation_strategy": "Research WebSocket libraries, plan for additional testing time",
+      "contingency_plan": "Implement polling-based updates as backup solution",
+      "owner": "backend_developer",
+      "status": "identified"
+    },
+    {
+      "id": "risk_003",
+      "name": "Mobile Responsiveness Issues",
+      "description": "Design may not work well on all mobile devices",
+      "category": "quality",
+      "probability": 3,
+      "impact": 3,
+      "risk_score": 9,
+      "mitigation_strategy": "Early mobile testing, use responsive design framework",
+      "contingency_plan": "Create separate mobile-optimized layouts",
+      "owner": "ui_designer",
+      "status": "identified"
+    },
+    {
+      "id": "risk_004",
+      "name": "Performance Under Load",
+      "description": "System may not handle 50 concurrent users efficiently",
+      "category": "technical",
+      "probability": 2,
+      "impact": 4,
+      "risk_score": 8,
+      "mitigation_strategy": "Early load testing, optimize database queries",
+      "contingency_plan": "Implement caching, optimize server resources",
+      "owner": "backend_developer",
+      "status": "identified"
+    },
+    {
+      "id": "risk_005",
+      "name": "Security Vulnerabilities",
+      "description": "Authentication system may have security flaws",
+      "category": "quality",
+      "probability": 2,
+      "impact": 5,
+      "risk_score": 10,
+      "mitigation_strategy": "Follow security best practices, conduct security review",
+      "contingency_plan": "Engage security consultant, implement additional security measures",
+      "owner": "backend_developer",
+      "status": "identified"
+    }
+  ],
+  "resources": [
+    {
+      "id": "project_manager",
+      "name": "Project Manager",
+      "type": "human",
+      "cost_per_unit": 100.0,
+      "availability": 1.0,
+      "skills": ["project_management", "agile", "coordination"]
+    },
+    {
+      "id": "tech_lead",
+      "name": "Technical Lead",
+      "type": "human",
+      "cost_per_unit": 150.0,
+      "availability": 1.0,
+      "skills": ["architecture", "leadership", "full_stack"]
+    },
+    {
+      "id": "backend_developer",
+      "name": "Backend Developer",
+      "type": "human",
+      "cost_per_unit": 120.0,
+      "availability": 1.0,
+      "skills": ["nodejs", "databases", "apis", "websockets"]
+    },
+    {
+      "id": "frontend_developer",
+      "name": "Frontend Developer",
+      "type": "human",
+      "cost_per_unit": 110.0,
+      "availability": 1.0,
+      "skills": ["react", "javascript", "css", "responsive_design"]
+    },
+    {
+      "id": "ui_designer",
+      "name": "UI/UX Designer",
+      "type": "human",
+      "cost_per_unit": 90.0,
+      "availability": 0.8,
+      "skills": ["ui_design", "ux_design", "prototyping", "figma"]
+    },
+    {
+      "id": "qa_engineer",
+      "name": "QA Engineer",
+      "type": "human",
+      "cost_per_unit": 80.0,
+      "availability": 1.0,
+      "skills": ["testing", "automation", "quality_assurance"]
+    },
+    {
+      "id": "devops_engineer",
+      "name": "DevOps Engineer",
+      "type": "human",
+      "cost_per_unit": 130.0,
+      "availability": 0.5,
+      "skills": ["docker", "deployment", "monitoring", "ci_cd"]
+    },
+    {
+      "id": "business_analyst",
+      "name": "Business Analyst",
+      "type": "human",
+      "cost_per_unit": 95.0,
+      "availability": 0.6,
+      "skills": ["requirements_analysis", "documentation", "stakeholder_management"]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone_1",
+      "name": "Project Planning Complete",
+      "description": "All planning and architecture work finished",
+      "date": "2025-02-07",
+      "deliverables": ["Requirements document", "Architecture design", "Project plan"],
+      "criteria": ["Requirements approved", "Architecture reviewed", "Team aligned"]
+    },
+    {
+      "id": "milestone_2",
+      "name": "Backend APIs Ready",
+      "description": "All backend development and APIs completed",
+      "date": "2025-02-28",
+      "deliverables": ["Database", "Authentication system", "Core APIs"],
+      "criteria": ["APIs tested", "Authentication working", "Database stable"]
+    },
+    {
+      "id": "milestone_3",
+      "name": "Frontend Complete",
+      "description": "User interface development finished",
+      "date": "2025-03-14",
+      "deliverables": ["Task management UI", "Authentication UI", "Responsive design"],
+      "criteria": ["UI functional", "Mobile responsive", "Real-time features working"]
+    },
+    {
+      "id": "milestone_4",
+      "name": "Testing Complete",
+      "description": "All testing phases finished and issues resolved",
+      "date": "2025-03-21",
+      "deliverables": ["Test results", "Bug fixes", "Performance validation"],
+      "criteria": ["All tests passed", "Performance acceptable", "UAT approved"]
+    },
+    {
+      "id": "milestone_5",
+      "name": "Production Launch",
+      "description": "Application deployed and live",
+      "date": "2025-03-29",
+      "deliverables": ["Production deployment", "Monitoring setup", "Launch support"],
+      "criteria": ["System live", "Monitoring active", "Users onboarded"]
+    }
+  ],
+  "critical_path": [
+    "task_1_1",
+    "task_1_2",
+    "task_1_3",
+    "task_2_1",
+    "task_2_2",
+    "task_2_3",
+    "task_2_4",
+    "task_3_4",
+    "task_3_5",
+    "task_4_1",
+    "task_4_2",
+    "task_4_3",
+    "task_5_1",
+    "task_5_2",
+    "task_5_3"
+  ],
+  "rag_citations": [
+    {
+      "source": "Web Development Best Practices",
+      "content": "Modern web applications should follow responsive design principles and implement proper authentication security measures",
+      "relevance_score": 0.89
+    },
+    {
+      "source": "Project Management Guidelines",
+      "content": "Agile development methodology with regular testing phases ensures quality delivery within timeline constraints",
+      "relevance_score": 0.85
+    }
+  ],
+  "documentation": {
+    "report": "# Task Management Web Application - Project Report\n\n## Executive Summary\nThis project delivers a modern, responsive task management web application with real-time collaboration features. The 8-week timeline includes comprehensive development, testing, and deployment phases.\n\n## Technical Approach\n- **Frontend**: React.js with responsive design\n- **Backend**: Node.js with RESTful APIs\n- **Database**: PostgreSQL with optimized queries\n- **Real-time**: WebSocket integration\n- **Authentication**: Secure JWT-based system\n\n## Key Features\n1. User registration and authentication\n2. Task creation, editing, and management\n3. Real-time collaboration updates\n4. Mobile-responsive interface\n5. Team management capabilities\n6. Basic reporting and analytics\n\n## Risk Management\nPrimary risks include real-time feature complexity and performance scaling. Mitigation strategies include early testing and backup implementation approaches.\n\n## Timeline\nThe project spans 8 weeks with 5 major phases:\n1. Planning & Setup (1 week)\n2. Backend Development (3 weeks)\n3. Frontend Development (4 weeks, overlapping)\n4. Testing & QA (2 weeks)\n5. Deployment (1 week)\n\nTotal estimated cost: $168,000 with a team of 8 specialists.",
+    "slides": "## Slide 1: Project Overview\n- **Project**: Task Management Web App\n- **Duration**: 8 weeks (56 days)\n- **Budget**: $168,000\n- **Team Size**: 8 specialists\n\n## Slide 2: Key Features\n- User Authentication & Management\n- Real-time Task Collaboration\n- Mobile-Responsive Design\n- Team Management\n- Basic Reporting\n\n## Slide 3: Technology Stack\n- **Frontend**: React.js, CSS3, WebSocket\n- **Backend**: Node.js, Express, JWT\n- **Database**: PostgreSQL\n- **Deployment**: Docker, CI/CD\n\n## Slide 4: Timeline\n- **Week 1**: Planning & Architecture\n- **Weeks 2-4**: Backend Development\n- **Weeks 3-6**: Frontend Development\n- **Weeks 7-8**: Testing & Deployment\n\n## Slide 5: Success Metrics\n- Supports 50+ concurrent users\n- Sub-2 second response times\n- Mobile-first responsive design\n- 99.9% uptime target\n- Complete feature delivery",
+    "executive_summary": "Strategic web application development project delivering a modern task management platform with real-time collaboration capabilities. 8-week timeline with $168k budget targeting team productivity enhancement through intuitive user interface and responsive design."
+  },
+  "metadata": {
+    "model_used": "gpt-5",
+    "processing_time": 32.5,
+    "validation_status": "valid",
+    "optimized": true,
+    "optimization_date": "2025-01-15T14:25:00.000Z",
+    "example_type": "web_application"
+  }
+}

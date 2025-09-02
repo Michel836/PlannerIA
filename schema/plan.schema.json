@@ -1,0 +1,380 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Project Plan Schema",
+  "description": "Schema for validating PlannerIA generated project plans",
+  "type": "object",
+  "required": ["run_id", "timestamp", "project_overview", "wbs"],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier for this planning run"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When this plan was generated"
+    },
+    "brief": {
+      "type": "string",
+      "description": "Original project brief text"
+    },
+    "project_overview": {
+      "type": "object",
+      "required": ["title", "description"],
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "objectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "success_criteria": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "total_duration": {
+          "type": "number",
+          "minimum": 0
+        },
+        "total_cost": {
+          "type": "number",
+          "minimum": 0
+        },
+        "start_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "end_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "wbs": {
+      "type": "object",
+      "required": ["phases"],
+      "properties": {
+        "phases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/phase"
+          }
+        }
+      }
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/task"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/dependency"
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/risk"
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/resource"
+      }
+    },
+    "milestones": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/milestone"
+      }
+    },
+    "critical_path": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rag_citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          },
+          "relevance_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          }
+        }
+      }
+    },
+    "documentation": {
+      "type": "object",
+      "properties": {
+        "report": {
+          "type": "string"
+        },
+        "slides": {
+          "type": "string"
+        },
+        "executive_summary": {
+          "type": "string"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "model_used": {
+          "type": "string"
+        },
+        "processing_time": {
+          "type": "number"
+        },
+        "validation_status": {
+          "type": "string",
+          "enum": ["valid", "corrected", "failed"]
+        }
+      }
+    }
+  },
+  "definitions": {
+    "phase": {
+      "type": "object",
+      "required": ["id", "name", "tasks"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "start_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "end_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "tasks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/task"
+          }
+        }
+      }
+    },
+    "task": {
+      "type": "object",
+      "required": ["id", "name", "duration"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number",
+          "minimum": 0
+        },
+        "duration_unit": {
+          "type": "string",
+          "enum": ["hours", "days", "weeks"]
+        },
+        "effort": {
+          "type": "number",
+          "minimum": 0
+        },
+        "cost": {
+          "type": "number",
+          "minimum": 0
+        },
+        "start_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "end_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["not_started", "in_progress", "completed", "blocked"]
+        },
+        "priority": {
+          "type": "string",
+          "enum": ["low", "medium", "high", "critical"]
+        },
+        "assigned_resources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deliverables": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "dependency": {
+      "type": "object",
+      "required": ["predecessor", "successor", "type"],
+      "properties": {
+        "predecessor": {
+          "type": "string"
+        },
+        "successor": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["finish_to_start", "start_to_start", "finish_to_finish", "start_to_finish"]
+        },
+        "lag": {
+          "type": "number",
+          "default": 0
+        }
+      }
+    },
+    "risk": {
+      "type": "object",
+      "required": ["id", "name", "probability", "impact"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["technical", "schedule", "budget", "resource", "external", "quality"]
+        },
+        "probability": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "impact": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "risk_score": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 25
+        },
+        "mitigation_strategy": {
+          "type": "string"
+        },
+        "contingency_plan": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["identified", "assessed", "mitigated", "closed"]
+        }
+      }
+    },
+    "resource": {
+      "type": "object",
+      "required": ["id", "name", "type"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["human", "equipment", "material", "facility"]
+        },
+        "cost_per_unit": {
+          "type": "number",
+          "minimum": 0
+        },
+        "availability": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "skills": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "milestone": {
+      "type": "object",
+      "required": ["id", "name", "date"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "deliverables": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "criteria": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

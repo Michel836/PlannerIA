@@ -1,0 +1,628 @@
+{
+  "run_id": "example-mvp-startup-001",
+  "timestamp": "2025-01-15T10:30:00.000Z",
+  "brief": "Create an MVP for a B2B SaaS startup that provides AI-powered customer service automation. The platform should include a chat interface, knowledge base integration, and basic analytics dashboard. Target launch in 3 months with a team of 5 developers.",
+  "project_overview": {
+    "title": "AI Customer Service MVP",
+    "description": "Development of a minimum viable product for an AI-powered customer service automation platform targeting B2B clients",
+    "objectives": [
+      "Build core AI chat functionality",
+      "Integrate with popular knowledge bases",
+      "Create analytics dashboard for insights",
+      "Launch MVP within 3 months",
+      "Validate product-market fit with initial customers"
+    ],
+    "success_criteria": [
+      "Functional chat interface with AI responses",
+      "Integration with at least 2 knowledge base systems",
+      "Basic analytics showing conversation metrics",
+      "Deployment to production environment",
+      "Onboarding of 5+ pilot customers"
+    ],
+    "total_duration": 85.0,
+    "total_cost": 425000.0,
+    "start_date": "2025-01-20",
+    "end_date": "2025-04-15"
+  },
+  "wbs": {
+    "phases": [
+      {
+        "id": "phase_1",
+        "name": "Project Initiation & Planning",
+        "description": "Set up project foundation, requirements gathering, and technical planning",
+        "start_date": "2025-01-20",
+        "end_date": "2025-02-03",
+        "tasks": [
+          {
+            "id": "task_1_1",
+            "name": "Project Setup & Team Onboarding",
+            "description": "Initialize project structure, set up development environment, and onboard team members",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 12000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["project_manager", "tech_lead"],
+            "deliverables": ["Project charter", "Development environment", "Team access setup"]
+          },
+          {
+            "id": "task_1_2",
+            "name": "Requirements Gathering & Analysis",
+            "description": "Detailed analysis of customer needs, technical requirements, and feature specifications",
+            "duration": 5.0,
+            "duration_unit": "days",
+            "effort": 40.0,
+            "cost": 20000.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["business_analyst", "product_manager", "tech_lead"],
+            "deliverables": ["Requirements document", "User stories", "Technical specifications"]
+          },
+          {
+            "id": "task_1_3",
+            "name": "System Architecture Design",
+            "description": "Design overall system architecture, technology stack selection, and integration patterns",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 16000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["tech_lead", "senior_architect"],
+            "deliverables": ["Architecture diagrams", "Technology stack documentation", "API specifications"]
+          },
+          {
+            "id": "task_1_4",
+            "name": "UI/UX Design & Prototyping",
+            "description": "Create user interface designs, wireframes, and interactive prototypes",
+            "duration": 6.0,
+            "duration_unit": "days",
+            "effort": 48.0,
+            "cost": 24000.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["ui_designer", "ux_designer"],
+            "deliverables": ["UI mockups", "UX wireframes", "Interactive prototype"]
+          }
+        ]
+      },
+      {
+        "id": "phase_2",
+        "name": "Core Development",
+        "description": "Development of core AI chat functionality and backend systems",
+        "start_date": "2025-02-04",
+        "end_date": "2025-03-14",
+        "tasks": [
+          {
+            "id": "task_2_1",
+            "name": "Backend API Development",
+            "description": "Build core backend APIs, authentication, and data models",
+            "duration": 15.0,
+            "duration_unit": "days",
+            "effort": 120.0,
+            "cost": 60000.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["senior_backend_dev", "backend_dev_1", "backend_dev_2"],
+            "deliverables": ["REST APIs", "Database schema", "Authentication system"]
+          },
+          {
+            "id": "task_2_2",
+            "name": "AI Chat Engine Integration",
+            "description": "Integrate AI/ML models for natural language processing and response generation",
+            "duration": 18.0,
+            "duration_unit": "days",
+            "effort": 144.0,
+            "cost": 72000.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["ai_engineer", "senior_backend_dev"],
+            "deliverables": ["AI model integration", "NLP pipeline", "Response generation system"]
+          },
+          {
+            "id": "task_2_3",
+            "name": "Knowledge Base Integration",
+            "description": "Develop connectors for popular knowledge base systems (Confluence, Notion, etc.)",
+            "duration": 12.0,
+            "duration_unit": "days",
+            "effort": 96.0,
+            "cost": 48000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["integration_specialist", "backend_dev_1"],
+            "deliverables": ["KB connectors", "Data synchronization", "Content indexing system"]
+          },
+          {
+            "id": "task_2_4",
+            "name": "Frontend Chat Interface",
+            "description": "Build responsive chat interface with real-time messaging capabilities",
+            "duration": 14.0,
+            "duration_unit": "days",
+            "effort": 112.0,
+            "cost": 56000.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["frontend_lead", "frontend_dev_1"],
+            "deliverables": ["Chat UI components", "Real-time messaging", "Mobile-responsive design"]
+          }
+        ]
+      },
+      {
+        "id": "phase_3",
+        "name": "Analytics & Dashboard",
+        "description": "Development of analytics dashboard and reporting capabilities",
+        "start_date": "2025-03-03",
+        "end_date": "2025-03-28",
+        "tasks": [
+          {
+            "id": "task_3_1",
+            "name": "Analytics Backend",
+            "description": "Build analytics data collection, processing, and storage systems",
+            "duration": 10.0,
+            "duration_unit": "days",
+            "effort": 80.0,
+            "cost": 40000.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["data_engineer", "backend_dev_2"],
+            "deliverables": ["Analytics pipeline", "Data warehouse", "Metrics calculation"]
+          },
+          {
+            "id": "task_3_2",
+            "name": "Dashboard Frontend",
+            "description": "Create interactive dashboard with charts, metrics, and reporting features",
+            "duration": 12.0,
+            "duration_unit": "days",
+            "effort": 96.0,
+            "cost": 48000.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["frontend_lead", "frontend_dev_2"],
+            "deliverables": ["Dashboard UI", "Interactive charts", "Export capabilities"]
+          },
+          {
+            "id": "task_3_3",
+            "name": "Reporting System",
+            "description": "Implement automated reporting and alerting capabilities",
+            "duration": 6.0,
+            "duration_unit": "days",
+            "effort": 48.0,
+            "cost": 24000.0,
+            "priority": "low",
+            "status": "not_started",
+            "assigned_resources": ["backend_dev_1"],
+            "deliverables": ["Report generator", "Email alerts", "Scheduled reports"]
+          }
+        ]
+      },
+      {
+        "id": "phase_4",
+        "name": "Testing & Quality Assurance",
+        "description": "Comprehensive testing, bug fixing, and quality assurance",
+        "start_date": "2025-03-17",
+        "end_date": "2025-04-04",
+        "tasks": [
+          {
+            "id": "task_4_1",
+            "name": "Unit & Integration Testing",
+            "description": "Develop and execute comprehensive test suites for all components",
+            "duration": 8.0,
+            "duration_unit": "days",
+            "effort": 64.0,
+            "cost": 32000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["qa_engineer", "test_automation_engineer"],
+            "deliverables": ["Test suites", "Test automation", "Coverage reports"]
+          },
+          {
+            "id": "task_4_2",
+            "name": "User Acceptance Testing",
+            "description": "Conduct UAT with internal stakeholders and beta customers",
+            "duration": 5.0,
+            "duration_unit": "days",
+            "effort": 40.0,
+            "cost": 20000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["qa_engineer", "product_manager"],
+            "deliverables": ["UAT scenarios", "Feedback collection", "Issue tracking"]
+          },
+          {
+            "id": "task_4_3",
+            "name": "Performance Testing",
+            "description": "Load testing, performance optimization, and scalability validation",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 16000.0,
+            "priority": "medium",
+            "status": "not_started",
+            "assigned_resources": ["performance_engineer", "senior_backend_dev"],
+            "deliverables": ["Load test results", "Performance benchmarks", "Optimization recommendations"]
+          },
+          {
+            "id": "task_4_4",
+            "name": "Security Testing",
+            "description": "Security assessment, vulnerability testing, and compliance validation",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 12000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["security_specialist"],
+            "deliverables": ["Security audit", "Vulnerability report", "Compliance checklist"]
+          }
+        ]
+      },
+      {
+        "id": "phase_5",
+        "name": "Deployment & Launch",
+        "description": "Production deployment, monitoring setup, and go-live activities",
+        "start_date": "2025-04-07",
+        "end_date": "2025-04-15",
+        "tasks": [
+          {
+            "id": "task_5_1",
+            "name": "Production Environment Setup",
+            "description": "Configure production infrastructure, monitoring, and deployment pipelines",
+            "duration": 4.0,
+            "duration_unit": "days",
+            "effort": 32.0,
+            "cost": 16000.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["devops_engineer", "tech_lead"],
+            "deliverables": ["Production infrastructure", "CI/CD pipeline", "Monitoring setup"]
+          },
+          {
+            "id": "task_5_2",
+            "name": "Data Migration & Setup",
+            "description": "Migrate initial data, configure integrations, and set up customer accounts",
+            "duration": 2.0,
+            "duration_unit": "days",
+            "effort": 16.0,
+            "cost": 8000.0,
+            "priority": "high",
+            "status": "not_started",
+            "assigned_resources": ["data_engineer", "backend_dev_1"],
+            "deliverables": ["Data migration scripts", "Integration configs", "Customer setup"]
+          },
+          {
+            "id": "task_5_3",
+            "name": "Go-Live & Launch Support",
+            "description": "Execute go-live plan, provide launch support, and monitor initial usage",
+            "duration": 3.0,
+            "duration_unit": "days",
+            "effort": 24.0,
+            "cost": 12000.0,
+            "priority": "critical",
+            "status": "not_started",
+            "assigned_resources": ["project_manager", "tech_lead", "support_engineer"],
+            "deliverables": ["Go-live execution", "Launch monitoring", "Support documentation"]
+          }
+        ]
+      }
+    ]
+  },
+  "tasks": [],
+  "dependencies": [
+    {
+      "predecessor": "task_1_1",
+      "successor": "task_1_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_1_2",
+      "successor": "task_1_3",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_1_3",
+      "successor": "task_2_1",
+      "type": "finish_to_start",
+      "lag": 1
+    },
+    {
+      "predecessor": "task_1_4",
+      "successor": "task_2_4",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_1",
+      "successor": "task_2_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_1",
+      "successor": "task_2_3",
+      "type": "finish_to_start",
+      "lag": 2
+    },
+    {
+      "predecessor": "task_2_2",
+      "successor": "task_3_1",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_2_4",
+      "successor": "task_3_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_3_1",
+      "successor": "task_3_2",
+      "type": "start_to_start",
+      "lag": 3
+    },
+    {
+      "predecessor": "task_3_2",
+      "successor": "task_4_1",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_4_1",
+      "successor": "task_4_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_4_2",
+      "successor": "task_5_1",
+      "type": "finish_to_start",
+      "lag": 1
+    },
+    {
+      "predecessor": "task_5_1",
+      "successor": "task_5_2",
+      "type": "finish_to_start",
+      "lag": 0
+    },
+    {
+      "predecessor": "task_5_2",
+      "successor": "task_5_3",
+      "type": "finish_to_start",
+      "lag": 0
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk_001",
+      "name": "AI Model Performance Issues",
+      "description": "AI chat responses may not meet quality expectations, requiring model fine-tuning or alternative approaches",
+      "category": "technical",
+      "probability": 3,
+      "impact": 4,
+      "risk_score": 12,
+      "mitigation_strategy": "Conduct early AI model testing, have backup models ready, allocate time for fine-tuning",
+      "contingency_plan": "Switch to rule-based system initially, gradually introduce AI capabilities",
+      "owner": "ai_engineer",
+      "status": "identified"
+    },
+    {
+      "id": "risk_002",
+      "name": "Knowledge Base Integration Complexity",
+      "description": "Third-party KB integrations may be more complex than anticipated, causing delays",
+      "category": "technical",
+      "probability": 4,
+      "impact": 3,
+      "risk_score": 12,
+      "mitigation_strategy": "Start with one KB integration, research APIs thoroughly, contact vendors early",
+      "contingency_plan": "Focus on most important integration, defer secondary ones to post-MVP",
+      "owner": "integration_specialist",
+      "status": "identified"
+    },
+    {
+      "id": "risk_003",
+      "name": "Resource Availability",
+      "description": "Key team members may become unavailable due to other commitments or illness",
+      "category": "resource",
+      "probability": 3,
+      "impact": 4,
+      "risk_score": 12,
+      "mitigation_strategy": "Cross-train team members, maintain documentation, have backup resources identified",
+      "contingency_plan": "Bring in contractors or consultants, reduce scope if necessary",
+      "owner": "project_manager",
+      "status": "identified"
+    },
+    {
+      "id": "risk_004",
+      "name": "Scope Creep",
+      "description": "Stakeholders may request additional features beyond MVP scope",
+      "category": "schedule",
+      "probability": 4,
+      "impact": 3,
+      "risk_score": 12,
+      "mitigation_strategy": "Clear scope documentation, regular stakeholder communication, change control process",
+      "contingency_plan": "Defer additional features to Phase 2, maintain MVP focus",
+      "owner": "product_manager",
+      "status": "identified"
+    },
+    {
+      "id": "risk_005",
+      "name": "Security Vulnerabilities",
+      "description": "Security issues may be discovered late in development, requiring significant rework",
+      "category": "quality",
+      "probability": 2,
+      "impact": 5,
+      "risk_score": 10,
+      "mitigation_strategy": "Security review in each phase, follow security best practices, early penetration testing",
+      "contingency_plan": "Allocate emergency security sprint, delay launch if critical issues found",
+      "owner": "security_specialist",
+      "status": "identified"
+    },
+    {
+      "id": "risk_006",
+      "name": "Performance Scaling Issues",
+      "description": "System may not perform well under load, requiring architecture changes",
+      "category": "technical",
+      "probability": 3,
+      "impact": 3,
+      "risk_score": 9,
+      "mitigation_strategy": "Early performance testing, scalable architecture design, load testing",
+      "contingency_plan": "Optimize critical paths, consider caching solutions, scale infrastructure",
+      "owner": "performance_engineer",
+      "status": "identified"
+    }
+  ],
+  "resources": [
+    {
+      "id": "project_manager",
+      "name": "Project Manager",
+      "type": "human",
+      "cost_per_unit": 120.0,
+      "availability": 1.0,
+      "skills": ["project_management", "agile", "stakeholder_management"]
+    },
+    {
+      "id": "tech_lead",
+      "name": "Technical Lead",
+      "type": "human",
+      "cost_per_unit": 140.0,
+      "availability": 1.0,
+      "skills": ["architecture", "leadership", "fullstack_development"]
+    },
+    {
+      "id": "senior_backend_dev",
+      "name": "Senior Backend Developer",
+      "type": "human",
+      "cost_per_unit": 130.0,
+      "availability": 1.0,
+      "skills": ["python", "apis", "databases", "microservices"]
+    },
+    {
+      "id": "ai_engineer",
+      "name": "AI/ML Engineer",
+      "type": "human",
+      "cost_per_unit": 150.0,
+      "availability": 1.0,
+      "skills": ["machine_learning", "nlp", "python", "tensorflow"]
+    },
+    {
+      "id": "frontend_lead",
+      "name": "Frontend Lead Developer",
+      "type": "human",
+      "cost_per_unit": 125.0,
+      "availability": 1.0,
+      "skills": ["react", "typescript", "ui_development", "responsive_design"]
+    },
+    {
+      "id": "ui_designer",
+      "name": "UI/UX Designer",
+      "type": "human",
+      "cost_per_unit": 100.0,
+      "availability": 0.8,
+      "skills": ["ui_design", "ux_design", "figma", "prototyping"]
+    },
+    {
+      "id": "qa_engineer",
+      "name": "QA Engineer",
+      "type": "human",
+      "cost_per_unit": 90.0,
+      "availability": 1.0,
+      "skills": ["testing", "automation", "quality_assurance"]
+    },
+    {
+      "id": "devops_engineer",
+      "name": "DevOps Engineer",
+      "type": "human",
+      "cost_per_unit": 135.0,
+      "availability": 0.7,
+      "skills": ["aws", "docker", "kubernetes", "ci_cd"]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone_1",
+      "name": "Project Kickoff Complete",
+      "description": "All planning and setup activities completed, team ready to start development",
+      "date": "2025-02-03",
+      "deliverables": ["Project charter", "Requirements document", "Architecture design"],
+      "criteria": ["Team onboarded", "Requirements approved", "Architecture reviewed"]
+    },
+    {
+      "id": "milestone_2",
+      "name": "Core Backend Complete",
+      "description": "Backend APIs and AI integration functional",
+      "date": "2025-03-07",
+      "deliverables": ["Backend APIs", "AI chat engine", "Knowledge base integration"],
+      "criteria": ["APIs tested", "AI responses working", "KB data flowing"]
+    },
+    {
+      "id": "milestone_3",
+      "name": "Frontend & Analytics Complete",
+      "description": "Chat interface and analytics dashboard ready",
+      "date": "2025-03-28",
+      "deliverables": ["Chat interface", "Analytics dashboard", "Reporting system"],
+      "criteria": ["UI functional", "Analytics working", "Reports generated"]
+    },
+    {
+      "id": "milestone_4",
+      "name": "Testing Complete",
+      "description": "All testing phases completed and issues resolved",
+      "date": "2025-04-04",
+      "deliverables": ["Test results", "Bug fixes", "Performance validation"],
+      "criteria": ["Tests passed", "Bugs resolved", "Performance acceptable"]
+    },
+    {
+      "id": "milestone_5",
+      "name": "MVP Launch",
+      "description": "Production deployment complete and MVP launched",
+      "date": "2025-04-15",
+      "deliverables": ["Production system", "Customer onboarding", "Launch support"],
+      "criteria": ["System deployed", "Customers onboarded", "Support available"]
+    }
+  ],
+  "critical_path": [
+    "task_1_1",
+    "task_1_2",
+    "task_1_3",
+    "task_2_1",
+    "task_2_2",
+    "task_3_1",
+    "task_4_1",
+    "task_4_2",
+    "task_5_1",
+    "task_5_2",
+    "task_5_3"
+  ],
+  "rag_citations": [
+    {
+      "source": "Project Management Best Practices",
+      "content": "Three-Point Estimation methodology for accurate project timeline planning",
+      "relevance_score": 0.92
+    },
+    {
+      "source": "Software Development Guidelines",
+      "content": "Agile development practices for MVP delivery and iterative improvement",
+      "relevance_score": 0.88
+    },
+    {
+      "source": "AI Implementation Framework",
+      "content": "Best practices for integrating AI/ML models in production systems",
+      "relevance_score": 0.85
+    }
+  ],
+  "documentation": {
+    "report": "# AI Customer Service MVP - Project Plan\n\n## Executive Summary\nThis project delivers an AI-powered customer service automation platform MVP within 3 months...",
+    "slides": "## Slide 1: Project Overview\n- **Goal**: Launch AI Customer Service MVP\n- **Timeline**: 3 months\n- **Budget**: $425,000\n- **Team**: 5+ specialists",
+    "executive_summary": "Strategic initiative to develop and launch an AI-powered customer service automation platform targeting B2B market with 85-day delivery timeline and $425k budget."
+  },
+  "metadata": {
+    "model_used": "gpt-5",
+    "processing_time": 45.2,
+    "validation_status": "valid",
+    "optimized": true,
+    "optimization_date": "2025-01-15T10:35:00.000Z",
+    "example_type": "mvp_startup"
+  }
+}

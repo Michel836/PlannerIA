@@ -1,0 +1,41 @@
+{
+  "start_time": "2025-08-26T16:51:22.005307",
+  "status": "completed",
+  "steps_completed": [
+    "data_loading",
+    "data_augmentation",
+    "data_saving",
+    "model_training",
+    "model_validation",
+    "predictions_export"
+  ],
+  "data_loaded": 100,
+  "total_samples": 100,
+  "model_training": {
+    "status": "success",
+    "training_date": "2025-08-26T16:51:30.344533",
+    "samples_used": 100,
+    "performance_metrics": {
+      "duration": {
+        "mae": 1.9436500524329474,
+        "mse": 9.793907436979236,
+        "r2": 0.9014998688833673,
+        "cv_score": 0.32804532974147194
+      },
+      "cost": {
+        "mae": 4219.7924,
+        "mse": 72187391.78714399,
+        "r2": 0.8869298050408803,
+        "cv_score": -0.16849460303109337
+      }
+    },
+    "feature_count": 132
+  },
+  "validation": {
+    "sample_size": 25,
+    "duration_mean_error": 0.2017630546523428,
+    "cost_mean_error": 0.30214297808326424,
+    "predictions_successful": 25
+  },
+  "end_time": "2025-08-26T16:51:30.448053"
+}
