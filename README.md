@@ -583,9 +583,9 @@ git checkout -b feature/amazing-feature
 
 ---
 
-## 🔮 **Roadmap 2025**
+## 🔮 **Roadmap 2026**
 
-### Q1 2025: Enterprise Features
+### Q1 2026: Enterprise Features
 - [ ] **JIRA Integration** - Seamless synchronization
 - [ ] **Asana Connector** - Two-way data sync
 - [ ] **Microsoft Project** - Import/export compatibility
@@ -593,7 +593,7 @@ git checkout -b feature/amazing-feature
 - [ ] **Teams Integration** - Microsoft ecosystem support
 - [ ] **SSO Support** - Enterprise authentication
 
-### Q2 2025: Mobile & Collaboration
+### Q2 2026: Mobile & Collaboration
 - [ ] **iOS App** - Native mobile experience
 - [ ] **Android App** - Cross-platform support
 - [ ] **Real-time Collaboration** - Multi-user editing
@@ -601,7 +601,7 @@ git checkout -b feature/amazing-feature
 - [ ] **Whiteboarding** - Visual planning tools
 - [ ] **Offline Mode** - Work without internet
 
-### Q3 2025: AI & Automation
+### Q3 2026: AI & Automation
 - [ ] **GPT-4 Integration** - Enhanced AI capabilities
 - [ ] **Custom AI Agents** - Build your own agents
 - [ ] **Workflow Automation** - Smart task automation
@@ -609,7 +609,7 @@ git checkout -b feature/amazing-feature
 - [ ] **Natural Language Queries** - Ask anything
 - [ ] **Smart Notifications** - AI-powered alerts
 
-### Q4 2025: Enterprise & Scale
+### Q4 2026: Enterprise & Scale
 - [ ] **On-Premise Deployment** - Enterprise security
 - [ ] **Multi-tenant SaaS** - Cloud-native scaling
 - [ ] **Advanced Analytics** - Business intelligence
